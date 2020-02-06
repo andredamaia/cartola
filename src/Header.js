@@ -1,11 +1,8 @@
 import React from 'react';
-import Banner from './Banner'
+
+
 
 import logo from './assets/logo.png'
-import bgsobre from './assets/bg-sobre.png'
-
-
-
 
 
 
@@ -13,23 +10,17 @@ function Header(){
     return(
         <>
             <header>
-                
+    
                 <div className="logo">
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-6">
-                            
-                            <img src={logo} alt=""/>
+                            <div className="col-12 col-md-6">
+
+                                <img src={logo} alt=""/>
 
                             </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="menu">
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-6">
+                            
+                            <div className="col-12 col-md-6 menu">
                                 <ul>
                                     <li>
                                         <a href="#">Home</a>
@@ -57,21 +48,12 @@ function Header(){
                     </div>
                 </div>
 
-            <div className="bg-sobre">
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-6">
-                            <img src={bgsobre} alt=""/>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-                
 
             </header>
-            <Banner/>
+
+            
+            
+            
         </>
     )
        
