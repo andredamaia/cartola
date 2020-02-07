@@ -11,13 +11,13 @@ header {
 
 
 ul {
-  padding: 40px 0;
+  padding: 40px 140px;
   position: relative;
 }
 
 
 
-.menu li { display: inline; margin-right: 35px }
+.menu li { display: inline; margin-right: 25px }
   .menu li a {
     font-size: 22px;
     font-weight: 450;

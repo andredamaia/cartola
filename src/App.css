@@ -4,7 +4,7 @@
 .bg-sobre {
     background: url('./assets/bg-sobre.png') center center no-repeat;
     position: relative;
-    height: 50vh;
+    height: 75vh;
     margin-top: -260px;
 }
 
@@ -41,3 +41,70 @@ strong {
 i {
     font-style: italic;
 }
+.deixe-a-cartola {
+    margin-top: -230px;
+    background: url('./assets/deixe-a-cartola.jpg') center center no-repeat;
+    position: relative;
+    height: 75vh;
+}
+
+.portifolio {
+    background: url('./assets/bg-sobre.png') center center no-repeat;
+    position: relative;
+    height: 75vh;
+    margin-top: -115px;
+}
+
+h2.text-portifolio {
+    text-align: center;
+    padding: 220px 0;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 750;
+    
+}
+p.text-black {
+    color: #000000;
+    margin-top: -175px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.clients-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+}
+.clients-holder div { 
+    padding: 30px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.clients-holder img { max-width: 100%; filter: grayscale(100%); opacity: .6; transition: all .3s ease-in-out; }
+.clients-holder img:hover { filter: grayscale(0); opacity: 1; }
+
+
+.bg-yellow {
+    
+    background: url('./assets/bg-servicos.jpg') center center no-repeat;
+    position: relative;
+    height: 165vh;
+}
+
+.bg-yellow img {
+    position: relative;
+    height: 40vh;
+    margin-top: 365px;
+    margin-left: 240px;
+}
+
+p.bg-white-text {
+    text-align: center;
+    color: #000000;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+
+
