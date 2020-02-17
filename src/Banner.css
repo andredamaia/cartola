@@ -4,10 +4,10 @@
     height: 100vh;
 }
 
-p{
-    color: #ffbf80;
+.banner img {
+    height: 15vh;
+    margin: 350px 450px;
 }
-
 
 
 

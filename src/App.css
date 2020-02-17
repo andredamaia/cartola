@@ -19,7 +19,7 @@ h3 {
     padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 26px;
     border-style: solid;
         border-top-width: 0;
@@ -49,7 +49,7 @@ i {
 }
 
 .portifolio {
-    background: url('./assets/bg-sobre.png') center center no-repeat;
+   
     position: relative;
     height: 75vh;
     margin-top: -115px;
@@ -74,12 +74,21 @@ p.text-black {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 2fr;
+    padding: 50px 0;
 }
 .clients-holder div { 
-    padding: 30px; 
+    padding: 100px 15px; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
+    border-style: solid;
+        border-top-width: 0.5px;
+        border-right-width: 0.5px;
+        border-bottom-width: 0.5px;
+        border-left-width: 0.5px;
+        color: #ffffff;
+        background: #000000;
+
 }
 .clients-holder img { max-width: 100%; filter: grayscale(100%); opacity: .6; transition: all .3s ease-in-out; }
 .clients-holder img:hover { filter: grayscale(0); opacity: 1; }
@@ -90,13 +99,28 @@ p.text-black {
     background: url('./assets/bg-servicos.jpg') center center no-repeat;
     position: relative;
     height: 165vh;
+    margin-top: -380px;
 }
 
 .bg-yellow img {
     position: relative;
-    height: 40vh;
+    height: 56vh;
     margin-top: 365px;
-    margin-left: 240px;
+    margin-left: 110px;
+}
+.bg-white {
+    margin-top: 300px;
+}
+
+.bg-white .empresas {
+    display: inline-flex ;
+    position: relative;
+    margin-top: 50px;
+}
+
+.bg-white .empresas img {
+    width: 115px;
+    margin: 25px 15px;
 }
 
 p.bg-white-text {
@@ -106,5 +130,124 @@ p.bg-white-text {
     font-size: 50px;
 }
 
+h4 {
+    margin-top: 200px;
+    font-size: 23px;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    line-height: 26px;
+    border-style: solid;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 0;
+        border-left-width: 1.3px;
+}
 
+.white-end {
+    margin-top: -400px;
+}
+.white-end img {
+    height: 40vh;
+    margin-top: 140px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.bg-black {
+    background: url('./assets/bg-servicos1.jpg') center center no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 100px 0;
+}
+
+.bg-black img {
+    width: 80px;
+}
+
+.black-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 4fr;
+    padding: 250px 0;
+    color: #ffffff;
+}
+
+.black-icon div {
+    padding: 100px 15px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-style: solid;
+        border-top-width: 0.5px;
+        border-right-width: 0.5px;
+        border-bottom-width: 0.5px;
+        border-left-width: 0.5px;
+        color: #ffffff;
+        background: #000000;
+}
+
+
+
+
+
+p.text-bg-black-1 {
+    color: #ffffff;
+    padding: 30px;
+    font-size: 20px;
+    margin-top: 170px;
+    margin-bottom: -10px;
+}
+
+p.text-bg-black-2 {
+    color: #ffffff;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text-yellow {
+    color:#999900 ;
+}
+
+.bg-pink {
+    background: url('./assets/bg-servicos-2.jpg') center center no-repeat;
+    position: relative;
+    height: 100vh;
+    padding: 185px 0;
+    text-align: center;
+}
+
+
+.bg-pink p {
+    margin-top: 15px;
+    margin-bottom: 100px;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.icone-1 {
+    background: url('./assets/servicos-1.png') no-repeat;
+}
+
+.icone-2 {
+    color: #ffffff;
+}
+
+.icone-3 {
+    color: #ffffff;
+}
+
+.icone-4 {
+    color: #ffffff;
+}
+
+.text-icones {
+    font-size: 30px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
 

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import banner1 from './assets/banner-1.jpg'
+import text1 from './assets/text-1.png'
 
 
 
@@ -11,9 +12,7 @@ function Banner(){
                 <div className="container">
                     <div classname="row">
                         <div className="col-12">
-                            <h2>
-                                jobs <br/> de tirar <br/> <p>a cartola.</p>
-                            </h2>
+                            <img src={text1} alt="" />
                         </div>
                     </div>
 
