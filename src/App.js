@@ -21,6 +21,11 @@ import servicos2 from './assets/servicos-2.png'
 import servicos3 from './assets/servicos-3.png'
 import servicos4 from './assets/servicos-4.png'
 import bgservicos2 from './assets/bg-servicos-2.jpg'
+import maria from './assets/maria.jpg'
+import button from './assets/button.png'
+import tag from './assets/tag.png'
+import vistasuamarca from './assets/vista-sua-marca.png'
+
 
 
 
@@ -144,7 +149,7 @@ function App() {
               <div className="col-6 ">
                 <p className="text-bg-black-1">Diversos serviços voltados para <strong>marketing </strong> (<i>offline e digital</i>) e <strong>jornalismo</strong>, desde o estudo aprofundado da empresa <strong>até a comunicação final</strong>, sempre apresentando as <strong> melhores soluções</strong> para tornar sua marca referência no mercado. </p>
 
-                <p className="text-bg-black-2"> <span classname="text-yellow">A Cartola</span> não apenas faz sua cabeça, ela também cuida de todo seu traje.</p>
+                <h6 className="text-bg-black-2"> <span classname="text-yellow">A Cartola</span> não apenas faz sua cabeça, ela também cuida de todo seu traje.</h6>
 
               </div>
               
@@ -154,10 +159,10 @@ function App() {
                 <img src={servicos3} alt="" />
                 <img src={servicos4} alt="" />
                 
-                <p>Vestimos a sua marca</p>
-                <p>Estilizamos sua identidade visual</p>
-                <p>Modernizamos seu marketing</p>
-                <p>Agilizamos sua comunicação</p>
+                <p classname="text-grid">Vestimos a sua marca</p>
+                <p classname="text-grid">Estilizamos sua identidade visual</p>
+                <p classname="text-grid">Modernizamos seu<br/> marketing</p>
+                <p classname="text-grid">Agilizamos sua comunicação</p>
 
               </div>
 
@@ -170,43 +175,60 @@ function App() {
           <div className="row">
             <div className="col-12 col-md-6">
 
-              <div className="icone-1"></div>
+              <div></div>
               
-              <span className="text-icones"> Vestimos <br/>sua marca</span>
+              <span className="text-icones icone-1"> Vestimos <br/>sua marca</span>
               <p>Criamos ou reformulamos o seu<br/> logotipo e toda a identidade visual da<br/> sua marca, para que toda sua<br/> comunicação esteja de acordo com seu o<br/> produto/serviço e posicionamento.</p>
             
             </div>
               
               
               
-            <div className="col-12 col-md-6 icone-2">
+            <div className="col-12 col-md-6">
 
-              <span className="text-icones">Realçamos suas<br/> peças publicitárias</span>
+              <span className="text-icones icone-2">Realçamos suas<br/> peças publicitárias</span>
               <p>Em harmonia com sua identidade<br/> visual, criamos uma comunicação<br/> que aproxima, difunde e destaca<br/> sua marca e o seu<br/> produto/serviço.</p>
             
             </div>
               
               
 
-            <div className="col-12 col-md-6 icone-3">
-              <span className="text-icones ">Modernizamos<br/> seu marketing</span>
+            <div className="col-12 col-md-6">
+              <span className="text-icones icone-3 ">Modernizamos<br/> seu marketing</span>
               <p>Elaboramos campanhas e ações que<br/> podem ser inseridas no marketing digital,<br/> sempre com a preocupação de manter um<br/> relacionamento próximo ao cliente e ao<br/> público alvo da sua marca.</p>
-
             </div>
               
 
-            <div className="col-12 col-md-6 icone-4">
+            <div className="col-12 col-md-6">
 
-              <span className="text-icones">Agilizamos sua<br/> comunicação</span>
-              <p>Para uma comunicação ainda<br/> mais completa, oferecemos os<br/> serviços de assessoria de<br/> imprensa e elaboração de periódicos.</p>
+              <span className="text-icones icone-4">Agilizamos sua<br/> comunicação</span>
+              <p>Para uma comunicação ainda<br/> mais completa, oferecemos os<br/> serviços de assessoria de<br/> imprensa e elaboração de<br/> periódicos.</p>
 
             </div>
-              
-
-            
           </div>
         </div>    
       </div>
+
+      <div className="bg-maria">
+        <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-6">
+                <img className="maria" src={maria} alt="" />
+              </div>
+
+              <div className="col-12 col-md-6">
+                <img className="influenciadores" src={vistasuamarca} alt="" />
+                <p>Influenciadores <strong>aumentam sua oportunidade</strong> de relacionamento<br/> e comunicam diretamente para o <strong>seu público.</strong></p>
+                <a href="" className="button-influencer">Sou influencer</a>
+                <a href="" className="button-sou-empresa">Sou empresa</a>
+                <a href="" className="button-midia-kit">preciso de um <span className="color-pink"></span>Midia-kit</a>
+
+              </div>
+            </div>
+        </div>    
+      </div>
+
+      
 
 
     </>

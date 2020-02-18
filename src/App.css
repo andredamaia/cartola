@@ -99,7 +99,7 @@ p.text-black {
     background: url('./assets/bg-servicos.jpg') center center no-repeat;
     position: relative;
     height: 165vh;
-    margin-top: -380px;
+    margin-top: -250px;
 }
 
 .bg-yellow img {
@@ -109,7 +109,7 @@ p.text-black {
     margin-left: 110px;
 }
 .bg-white {
-    margin-top: 300px;
+    margin-top: 350px;
 }
 
 .bg-white .empresas {
@@ -146,13 +146,13 @@ h4 {
 }
 
 .white-end {
-    margin-top: -400px;
+    margin-top: -340px;
 }
 .white-end img {
     height: 40vh;
-    margin-top: 140px;
+    margin-top: 115px;
     margin-left: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 85px;
 }
 
 .bg-black {
@@ -165,14 +165,21 @@ h4 {
 
 .bg-black img {
     width: 80px;
+    margin: 25px 35px;
+}
+.bg-black p {
+    text-align: center;
+    font-weight: 650;
+    
 }
 
 .black-icon {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 4fr;
-    padding: 250px 0;
+    padding: 200px 20px;
     color: #ffffff;
+    align-items: center;
 }
 
 .black-icon div {
@@ -199,16 +206,20 @@ p.text-bg-black-1 {
     font-size: 20px;
     margin-top: 170px;
     margin-bottom: -10px;
+    text-align: initial;
+    font-weight: 400;
 }
 
-p.text-bg-black-2 {
+h6.text-bg-black-2 {
     color: #ffffff;
     padding: 0 30px;
     font-size: 20px;
     font-weight: 700;
+    text-align: initial;
+    font-weight: 700;
 }
 
-.text-yellow {
+span.text-yellow {
     color:#999900 ;
 }
 
@@ -216,7 +227,7 @@ p.text-bg-black-2 {
     background: url('./assets/bg-servicos-2.jpg') center center no-repeat;
     position: relative;
     height: 100vh;
-    padding: 185px 0;
+    padding: 135px 0;
     text-align: center;
 }
 
@@ -228,26 +239,134 @@ p.text-bg-black-2 {
     color: #ffffff;
 }
 
-.icone-1 {
+span.text-icones.icone-1 {
     background: url('./assets/servicos-1.png') no-repeat;
+    background-size: 60px;
+    padding-left: 90px;
+    background-position: 5px 4px;
 }
 
-.icone-2 {
+
+span.text-icones.icone-2 {
     color: #ffffff;
+    background: url('./assets/servicos-2.png') no-repeat;
+    background-size: 60px;
+    padding-left: 90px;
+    background-position: 5px 4px;
 }
 
-.icone-3 {
+
+    
+
+span.text-icones.icone-3 {
     color: #ffffff;
+    background: url('./assets/servicos-3.png') no-repeat;
+    background-size: 60px;
+    padding-left: 90px;
+    background-position: 5px 4px;
 }
 
-.icone-4 {
+
+span.text-icones.icone-4 {
     color: #ffffff;
+    background: url('./assets/servicos-4.png') no-repeat;
+    background-size: 60px;
+    padding-left: 90px;
+    background-position: 5px 4px;
 }
+
 
 .text-icones {
     font-size: 30px;
-    line-height: 20px;
+    line-height: 32px;
     text-transform: uppercase;
     color: #ffffff;
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
 }
 
+.bg-maria {
+    padding: 80px 0;
+    margin-top: -20px;
+    
+}
+
+.bg-maria img.influenciadores {
+    height: 27vh;
+    margin: 50px 0;
+}
+
+.bg-maria img.maria {
+    height: 85vh;
+    margin-left: -105px;
+    margin-top: 54px;
+}
+
+.bg-maria p {
+    text-align: center;
+    font-size: 35px;
+}
+
+.button-influencer {
+    background: #FFFFFF;
+    padding: 0 40px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    border-style: solid;
+    border-radius: 55px;
+    display: inline-block;
+    color: #c20bb3e5;
+    height: 70px;
+    line-height: 65px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-color: #000000;
+    margin-left: -25px;
+    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
+    transition: all .3s ease-in-out;
+    
+}
+
+.button-sou-empresa {
+    background: #FFFFFF;
+    padding: 0 40px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    border-style: solid;
+    border-radius: 55px;
+    display: inline-block;
+    color: #c20bb3e5;
+    height: 70px;
+    line-height: 65px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-color: #000000;
+    margin-left: 25px;
+    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
+    transition: all .3s ease-in-out;
+    
+}
+
+.button-midia-kit {
+    background: #FFFFFF;
+    padding: 0 40px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    border-style: solid;
+    border-radius: 55px;
+    display: inline-block;
+    color: #c20bb3e5;
+    height: 70px;
+    line-height: 65px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-color: #000000;
+    margin-left: 50px;
+    margin-top: 25px;
+    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
+    transition: all .3s ease-in-out;
+}
