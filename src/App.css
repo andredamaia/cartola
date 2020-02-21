@@ -288,42 +288,44 @@ span.text-icones.icone-4 {
 
 .bg-maria {
     padding: 80px 0;
-    margin-top: -20px;
+    margin-top: 40px;
     
 }
 
 .bg-maria img.influenciadores {
     height: 27vh;
-    margin: 50px 0;
+    margin: 25px 15px;
 }
 
 .bg-maria img.maria {
     height: 85vh;
-    margin-left: -105px;
-    margin-top: 54px;
+    margin-left: -170px;
+    margin-top: -30px;
 }
 
 .bg-maria p {
     text-align: center;
-    font-size: 35px;
+    font-size: 18px;
+    padding: 15px 0px;
+    font-weight: 450;
 }
 
 .button-influencer {
-    background: #FFFFFF;
-    padding: 0 40px;
+    background: rgb(233,112,51);
+    background: linear-gradient(25deg, rgba(233,112,51,1) 19%, rgba(230,81,50,1) 35%, rgba(184,74,53,1) 58%, rgba(204,32,90,1) 78%, rgba(218,21,94,1) 100%);
+    padding: 0 55px;
     font-size: 15px;
     font-weight: bold;
     line-height: 25px;
-    border-style: solid;
     border-radius: 55px;
     display: inline-block;
-    color: #c20bb3e5;
-    height: 70px;
-    line-height: 65px;
+    color: #ffffff;
+    height: 60px;
+    line-height: 55px;
     font-size: 20px;
     text-transform: uppercase;
     border-color: #000000;
-    margin-left: -25px;
+    margin-left: -9px;
     box-shadow: 0 0 20px rgba(254, 230, 0, .2);
     transition: all .3s ease-in-out;
     
@@ -331,42 +333,138 @@ span.text-icones.icone-4 {
 
 .button-sou-empresa {
     background: #FFFFFF;
-    padding: 0 40px;
+    padding: 0 55px;
     font-size: 15px;
     font-weight: bold;
     line-height: 25px;
-    border-style: solid;
+    border-style: outset;
+    border-color: #ddd2d2c7;
     border-radius: 55px;
     display: inline-block;
-    color: #c20bb3e5;
-    height: 70px;
-    line-height: 65px;
+    height: 60px;
+    line-height: 55px;
     font-size: 20px;
-    text-transform: uppercase;
-    border-color: #000000;
-    margin-left: 25px;
+    text-transform: uppercase;;
     box-shadow: 0 0 20px rgba(254, 230, 0, .2);
     transition: all .3s ease-in-out;
+    border: 1px outset;
+    margin-left: 13px;
+    
     
 }
 
-.button-midia-kit {
+button-midia-kit {
     background: #FFFFFF;
-    padding: 0 40px;
+    padding: 0 65px;
     font-size: 15px;
     font-weight: bold;
     line-height: 25px;
-    border-style: solid;
+    border-style: outset;
+    border-color: #da155e;
     border-radius: 55px;
     display: inline-block;
-    color: #c20bb3e5;
-    height: 70px;
-    line-height: 65px;
+    height: 60px;
+    line-height: 55px;
     font-size: 20px;
-    text-transform: uppercase;
-    border-color: #000000;
-    margin-left: 50px;
-    margin-top: 25px;
+    text-transform: uppercase;;
     box-shadow: 0 0 20px rgba(254, 230, 0, .2);
     transition: all .3s ease-in-out;
+    border: 1px outset;
+    margin-left: 100px;
+    margin-top: 25px;
+    border: 1px;
+    
+}
+
+span.color-pink {
+    padding: 0;
+}
+
+span.color-preciso {
+    font-weight: 500;
+    text-transform: initial;
+}
+
+span.influencer {
+    background: rgb(233,112,51);
+    background: linear-gradient(25deg, rgba(233,112,51,1) 19%, rgba(230,81,50,1) 35%, rgba(184,74,53,1) 58%, rgba(204,32,90,1) 78%, rgba(218,21,94,1) 100%);
+    padding: 3px 50px;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 55px;
+    border-radius: 55px;
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-right: 30px;
+    margin-left: 150px;
+}
+
+.sou-empresa {
+    background: #f5f4f4;
+    padding: 0 65px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    border-style: outset;
+    border-color: #ddd2d2c7;
+    border-radius: 55px;
+    display: inline-block;
+    height: 60px;
+    line-height: 55px;
+    font-size: 20px;
+    text-transform: uppercase;;
+    margin-left: 200px;
+    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
+    transition: all .3s ease-in-out;
+    border: 1px outset;
+}
+
+
+.bg-sou-influencer p {
+    font-size: 20px;
+}
+
+form { margin-top: 50px; }
+form input {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid ;
+    border-color: linear-gradient(25deg, rgba(233,112,51,1) 19%, rgba(230,81,50,1) 35%, rgba(184,74,53,1) 58%, rgba(204,32,90,1) 78%, rgba(218,21,94,1) 100%);;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 20px;
+    background: none;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rede-social {
+    margin-left: 50px;
+}
+form textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #c20bb3e5;
+    padding: 20px;
+    background: none;
+    margin-bottom: 15px;
+    height: 180px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-default {
+    margin: -10px 180px;
+    height: 0vh;
+}
+
+.bg-sou-empresa {
+    padding:  100px 0;
+}
+
+.bg-sou-empresa p {
+    font-size: 20px;
+    margin-left: -35px;
 }

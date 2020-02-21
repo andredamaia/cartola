@@ -221,22 +221,206 @@ function App() {
                 <p>Influenciadores <strong>aumentam sua oportunidade</strong> de relacionamento<br/> e comunicam diretamente para o <strong>seu público.</strong></p>
                 <a href="" className="button-influencer">Sou influencer</a>
                 <a href="" className="button-sou-empresa">Sou empresa</a>
-                <a href="" className="button-midia-kit">preciso de um <span className="color-pink"></span>Midia-kit</a>
+                <a href="" className="button-midia-kit"> 
+                  <p className="color-preciso">Preciso de um</p> 
+                  <span className="color-pink">Midia-kit</span>
+                </a>
 
               </div>
             </div>
         </div>    
       </div>
 
-      
+      <div className="bg-sou-influencer">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 text-center">
+              
+              <p> <span className="influencer">Sou influencer</span> <strong>Cadastre-se</strong> para participar de campanhas</p>
 
+            </div>
+          </div>
+
+          <form action="" className="row">
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="nome-completo" id="nome-completo" placeholder="Nome completo" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="email" id="email" placeholder="E-mail" required />
+              </div>
+            </div>
+          </form>
+
+          <form action="" className="row">
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="DDD" id="DDD" placeholder="(DDD) 9XXXX-XXXX" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-3">
+              <div className="input-block rede-sociais">
+                <input name="redes-sociais" id="redes-sociais" placeholder="redes sociais" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-3">
+              <div className="input-block">
+                <input name="plataforma" id="plataforma" placeholder="plataforma" required />
+              </div>
+            </div>
+          </form>
+
+          <form action="" className="row">
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="link-kard" id="link-kard" placeholder="link kard Kuak.com" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="nichos" id="nichos" placeholder="Nichos # (separados por , )" required />
+              </div>
+            </div>
+          </form>
+
+          <form action="" className="row">
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="upload" id="upload" placeholder="fazer upload de midia kit em pdf" required />
+              </div>
+            </div>
+          </form>
+
+          <form action="" className="row">
+            <div className="col-12 col-md-6">
+              <textarea name="" id="" cols="30" rows="10" placeholder="sobre mim"></textarea>
+            </div>
+          </form>
+        </div>    
+      </div>
+
+      <div className="bg-sou-empresa">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-md-6">
+              
+             <span className="sou-empresa">Sou empresa</span> 
+
+            </div>
+
+            <div className="col-12 col-md-6">
+              <p>Nos passe um <strong><i>Briefing</i></strong> sobre sua campanha para encontrarmos o melhor <strong>influenciador para sua marca!</strong></p>
+            </div>
+          </div>
+
+          <form action="" className="row">
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="nome da empresa" id="nome da empresa" placeholder="Nome da empresa" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-4">
+              <div className="input-block">
+                <input name="nome do responsavel" id="nome do responsavel" placeholder="Nome do responsável" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-2">
+              <div className="input-block">
+                <input name="cargo" id="cargo" placeholder="cargo" required />
+              </div>
+            </div>
+          </form>
+
+          <form action="" className="row">
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="DDD" id="DDD" placeholder="(DDD) 9XXXX-XXXX" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="email" id="email" placeholder="e-mail" required />
+              </div>
+            </div>
+          </form>
+
+          <form action="" className="row">
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="tipo de campanha" id="tipo de campanha" placeholder="tipo de campanha" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="objetivo da campanha" id="objetivo da campanha" placeholder="objetivo da campanha" required />
+              </div>
+            </div>
+          </form>
+
+          <form action="" className="row">
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="persona da campanha" id="persona da campanha" placeholder="persona da campanha" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="nichos" id="nichos" placeholder="nichos # (separados por ,)" required />
+              </div>
+            </div>
+          </form>
+
+          <form action="" className="row">
+          <div className="col-12 col-md-3">
+              <div className="input-block">
+                <input name="gênero" id="gênero" placeholder="gênero" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-3">
+              <div className="input-block">
+                <input name="duração" id="duração" placeholder="duração" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="localização" id="localização" placeholder="localização" required />
+              </div>
+            </div>
+          </form>
+
+          <form action="" className="row">
+            <div className="col-12 col-md-6">
+              <div className="input-block">
+                <input name="verba $" id="verba $" placeholder="verba $" required />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6">
+              <button className="button-default"> <img src={button} alt="" /></button>
+            </div>
+          </form>
+        </div>
+      </div>
 
     </>
   )
 
 }
   
-  
+
   
 
 
