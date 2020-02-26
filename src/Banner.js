@@ -1,17 +1,25 @@
 import React from 'react';
 
 import banner1 from './assets/banner-1.jpg'
-import logo from './assets/logo.png'
+import text1 from './assets/text-1.png'
+
+
 
 function Banner(){
     return(
         <>
-
             <div className="banner">
-                <img src={banner1} alt=""/> 
+                <div className="container">
+                    <div classname="row">
+                        <div className="col-12">
+                            <img src={text1} alt="" />
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
-           
+
         </>
     )     
 }
