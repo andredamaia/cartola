@@ -311,12 +311,9 @@ span.text-icones.icone-4 {
 }
 
 .button-influencer {
-    background: rgb(233,112,51);
-    background: linear-gradient(25deg, rgba(233,112,51,1) 19%, rgba(230,81,50,1) 35%, rgba(184,74,53,1) 58%, rgba(204,32,90,1) 78%, rgba(218,21,94,1) 100%);
-    padding: 0 55px;
-    font-size: 15px;
+    background: linear-gradient(11deg, rgba(233,112,51,1) 14%, rgba(230,81,50,1) 31%, rgba(184,74,53,1) 47%, rgba(236,34,103,1) 79%);
+    padding: 0 43px;
     font-weight: bold;
-    line-height: 25px;
     border-radius: 55px;
     display: inline-block;
     color: #ffffff;
@@ -325,7 +322,7 @@ span.text-icones.icone-4 {
     font-size: 20px;
     text-transform: uppercase;
     border-color: #000000;
-    margin-left: -9px;
+    margin-left: 20px;
     box-shadow: 0 0 20px rgba(254, 230, 0, .2);
     transition: all .3s ease-in-out;
     
@@ -344,50 +341,65 @@ span.text-icones.icone-4 {
     height: 60px;
     line-height: 55px;
     font-size: 20px;
-    text-transform: uppercase;;
+    text-transform: uppercase;
     box-shadow: 0 0 20px rgba(254, 230, 0, .2);
     transition: all .3s ease-in-out;
     border: 1px outset;
     margin-left: 13px;
+    color: #ddd2d2c7;
+    margin-top: 40px;
+    
     
     
 }
 
-button-midia-kit {
+.button-sou-empresa p {
+    color:#da155e;
+    margin: -12px 0;
+    font-weight: 700;
+}
+
+
+
+.button-midia-kit {
     background: #FFFFFF;
-    padding: 0 65px;
-    font-size: 15px;
+    padding: 0 55px;
     font-weight: bold;
-    line-height: 25px;
     border-style: outset;
-    border-color: #da155e;
+    border-color: #ddd2d2c7;
     border-radius: 55px;
     display: inline-block;
     height: 60px;
-    line-height: 55px;
+    line-height: 30px;
     font-size: 20px;
-    text-transform: uppercase;;
+    text-transform: uppercase;
     box-shadow: 0 0 20px rgba(254, 230, 0, .2);
     transition: all .3s ease-in-out;
     border: 1px outset;
-    margin-left: 100px;
-    margin-top: 25px;
-    border: 1px;
-    
+    color: #da155e;
+    margin-top: 15px;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
 span.color-pink {
-    padding: 0;
+    color: #da155e;
+    font-weight: 900;
+    font-size: 18px;
 }
 
-span.color-preciso {
-    font-weight: 500;
+.bg-maria p.color-preciso {
+    font-weight: 450;
     text-transform: initial;
+    color: #da155e;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: -12px;
 }
 
 span.influencer {
     background: rgb(233,112,51);
-    background: linear-gradient(25deg, rgba(233,112,51,1) 19%, rgba(230,81,50,1) 35%, rgba(184,74,53,1) 58%, rgba(204,32,90,1) 78%, rgba(218,21,94,1) 100%);
+    background: linear-gradient(11deg, rgba(233,112,51,1) 14%, rgba(230,81,50,1) 31%, rgba(184,74,53,1) 47%, rgba(236,34,103,1) 79%);
     padding: 3px 50px;
     font-size: 23px;
     font-weight: bold;
@@ -423,6 +435,12 @@ span.influencer {
 
 .bg-sou-influencer p {
     font-size: 20px;
+}
+
+.bg-sou-influencer img.photo {
+    padding: 0;
+    height: 37vh;
+    margin-top: -145px;
 }
 
 form { margin-top: 50px; }
@@ -467,4 +485,74 @@ form textarea {
 .bg-sou-empresa p {
     font-size: 20px;
     margin-left: -35px;
+}
+
+span.button-midia-kit {
+    background: #FFFFFF;
+    padding: 0 55px;
+    font-weight: bold;
+    border-style: outset;
+    border-color: #ddd2d2c7;
+    border-radius: 55px;
+    display: inline-block;
+    height: 60px;
+    line-height: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
+    transition: all .3s ease-in-out;
+    border: 1px outset;
+    color: #da155e;
+    margin-top: 15px;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+
+span.color-pink-3 {
+    color: #da155e;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+p.color-preciso-2 {
+    background: #FFFFFF;
+    padding: 0 55px;
+    font-weight: bold;
+    border-style: outset;
+    border-color: #ddd2d2c7;
+    border-radius: 55px;
+    display: inline-block;
+    height: 60px;
+    line-height: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
+    transition: all .3s ease-in-out;
+    border: 1px outset;
+    color: #da155e;
+    margin-top: 15px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.button-default-2 {
+    margin: -10px 180px;
+    height: 0;
+}
+
+p.color-preciso-3 {
+    background: #FFFFFF;
+    padding: 0 31px;
+    font-weight: bold;
+    border-style: outset;
+    border-color: #ddd2d2c7;
+    border-radius: 55px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: -150px;
+    border: 1px outset;
+    color: #da155e;
+    border-color:#da155e ;
+    height: 60px;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Banner from './Banner';
+import Footer from './Footer';
 
 
 import bgsobre from './assets/bg-sobre.png';
@@ -25,6 +26,7 @@ import maria from './assets/maria.jpg'
 import button from './assets/button.png'
 import tag from './assets/tag.png'
 import vistasuamarca from './assets/vista-sua-marca.png'
+import avatar from './assets/avatar.png'
 
 
 
@@ -35,6 +37,7 @@ import './Header.css';
 import './global.css';
 import './Banner.css';
 import './App.css';
+import './Footer.css';
 
 
 
@@ -220,12 +223,9 @@ function App() {
                 <img className="influenciadores" src={vistasuamarca} alt="" />
                 <p>Influenciadores <strong>aumentam sua oportunidade</strong> de relacionamento<br/> e comunicam diretamente para o <strong>seu público.</strong></p>
                 <a href="" className="button-influencer">Sou influencer</a>
-                <a href="" className="button-sou-empresa">Sou empresa</a>
+                <a href="" className="button-sou-empresa"><p>Sou empresa</p></a>
                 <a href="" className="button-midia-kit"> 
-                  <p className="color-preciso">Preciso de um</p> 
-                  <span className="color-pink">Midia-kit</span>
-                </a>
-
+                  <p className="color-preciso">Preciso de um <span className="color-pink">midia-kit!</span></p></a>
               </div>
             </div>
         </div>    
@@ -253,9 +253,9 @@ function App() {
                 <input name="email" id="email" placeholder="E-mail" required />
               </div>
             </div>
-          </form>
+          
 
-          <form action="" className="row">
+          
             <div className="col-12 col-md-6">
               <div className="input-block">
                 <input name="DDD" id="DDD" placeholder="(DDD) 9XXXX-XXXX" required />
@@ -273,9 +273,9 @@ function App() {
                 <input name="plataforma" id="plataforma" placeholder="plataforma" required />
               </div>
             </div>
-          </form>
+          
 
-          <form action="" className="row">
+          
             <div className="col-12 col-md-6">
               <div className="input-block">
                 <input name="link-kard" id="link-kard" placeholder="link kard Kuak.com" required />
@@ -287,20 +287,36 @@ function App() {
                 <input name="nichos" id="nichos" placeholder="Nichos # (separados por , )" required />
               </div>
             </div>
-          </form>
+          
 
-          <form action="" className="row">
+          
             <div className="col-12 col-md-6">
               <div className="input-block">
                 <input name="upload" id="upload" placeholder="fazer upload de midia kit em pdf" required />
               </div>
             </div>
-          </form>
+        
+            
 
-          <form action="" className="row">
+            <div className="col-12 col-md-2">
+              <img className="photo" src={avatar} alt="" />
+            </div>
+
+            <div className="col-12 col-md-4">
+             
+            <a href="" className="button-midia-kit"> 
+                  Preciso de um <span className="color-pink">midia-kit!</span></a>
+
+              <button className="button-default-2"> <img src={button} alt="" /></button>
+            </div>
+
             <div className="col-12 col-md-6">
               <textarea name="" id="" cols="30" rows="10" placeholder="sobre mim"></textarea>
             </div>
+
+            
+
+
           </form>
         </div>    
       </div>
