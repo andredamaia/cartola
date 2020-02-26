@@ -237,6 +237,7 @@ span.text-yellow {
     margin-bottom: 100px;
     font-size: 17px;
     color: #ffffff;
+    padding: 0 60px;
 }
 
 span.text-icones.icone-1 {
@@ -293,14 +294,11 @@ span.text-icones.icone-4 {
 }
 
 .bg-maria img.influenciadores {
-    height: 27vh;
-    margin: 25px 15px;
+    max-width: 100%;
 }
 
 .bg-maria img.maria {
-    height: 85vh;
-    margin-left: -170px;
-    margin-top: -30px;
+    max-width: 100%;
 }
 
 .bg-maria p {
@@ -373,9 +371,8 @@ span.text-icones.icone-4 {
     line-height: 30px;
     font-size: 20px;
     text-transform: uppercase;
-    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
     transition: all .3s ease-in-out;
-    border: 1px outset;
+    border: 1px solid #da155e;
     color: #da155e;
     margin-top: 15px;
     margin-left: 140px;
@@ -438,9 +435,7 @@ span.influencer {
 }
 
 .bg-sou-influencer img.photo {
-    padding: 0;
-    height: 37vh;
-    margin-top: -145px;
+    max-width: 100%;
 }
 
 form { margin-top: 50px; }
@@ -556,3 +551,16 @@ p.color-preciso-3 {
     border-color:#da155e ;
     height: 60px;
 }
+
+.button-midia-kit {
+    text-transform: none;
+    text-align: center;
+    font-weight: 300;
+    line-height: 22px;
+    padding-top: 8px;
+    font-size: 18px;
+    margin: 15px auto;
+}
+    .button-midia-kit span { font-weight: 800; display: block; }
+
+.button-default { border: none; background: none; margin: 0; display: inline-block; }
