@@ -4,8 +4,6 @@ import Banner from './Banner';
 import Footer from './Footer';
 
 
-import bgsobre from './assets/bg-sobre.png';
-import deixeacartola from './assets/deixe-a-cartola.jpg';
 import casageraldo from './assets/casa-geraldo.jpg';
 import servicos from './assets/servicos.png';
 import importante from './assets/importante.jpg'
@@ -16,12 +14,10 @@ import grupoazarte from './assets/grupo-azarte.jpg'
 import happytour from './assets/happy-tour.jpg'
 import mhg from './assets/mhg.jpg'
 import lenasouza from './assets/lena-souza.jpg'
-import bgservicos1 from './assets/bg-servicos1.jpg'
 import servicos1 from './assets/servicos-1.png'
 import servicos2 from './assets/servicos-2.png'
 import servicos3 from './assets/servicos-3.png'
 import servicos4 from './assets/servicos-4.png'
-import bgservicos2 from './assets/bg-servicos-2.jpg'
 import maria from './assets/maria.jpg'
 import button from './assets/button.png'
 import tag from './assets/tag.png'
@@ -50,6 +46,8 @@ function App() {
 
 
       <Banner/>
+
+    
       
       <div className="bg-sobre">
         <div className="container">
@@ -152,7 +150,7 @@ function App() {
               <div className="col-6 ">
                 <p className="text-bg-black-1">Diversos serviços voltados para <strong>marketing </strong> (<i>offline e digital</i>) e <strong>jornalismo</strong>, desde o estudo aprofundado da empresa <strong>até a comunicação final</strong>, sempre apresentando as <strong> melhores soluções</strong> para tornar sua marca referência no mercado. </p>
 
-                <h6 className="text-bg-black-2"> <span classname="text-yellow">A Cartola</span> não apenas faz sua cabeça, ela também cuida de todo seu traje.</h6>
+                <h6 className="text-bg-black-2"> <span className="text-yellow">A Cartola</span> não apenas faz sua cabeça, ela também cuida de todo seu traje.</h6>
 
               </div>
               
@@ -181,7 +179,7 @@ function App() {
               <div></div>
               
               <span className="text-icones icone-1"> Vestimos <br/>sua marca</span>
-              <p>Criamos ou reformulamos o seu<br/> logotipo e toda a identidade visual da<br/> sua marca, para que toda sua<br/> comunicação esteja de acordo com seu o<br/> produto/serviço e posicionamento.</p>
+              <p>Criamos ou reformulamos o seu logotipo e toda a identidade visual da sua marca, para que toda sua comunicação esteja de acordo com seu o produto/serviço e posicionamento.</p>
             
             </div>
               
@@ -189,8 +187,8 @@ function App() {
               
             <div className="col-12 col-md-6">
 
-              <span className="text-icones icone-2">Realçamos suas<br/> peças publicitárias</span>
-              <p>Em harmonia com sua identidade<br/> visual, criamos uma comunicação<br/> que aproxima, difunde e destaca<br/> sua marca e o seu<br/> produto/serviço.</p>
+              <span className="text-icones icone-2">Realçamos suas <br/> peças publicitárias</span>
+              <p>Em harmonia com sua identidade visual, criamos uma comunicação que aproxima, difunde e destaca sua marca e o seu produto/serviço.</p>
             
             </div>
               
@@ -198,14 +196,14 @@ function App() {
 
             <div className="col-12 col-md-6">
               <span className="text-icones icone-3 ">Modernizamos<br/> seu marketing</span>
-              <p>Elaboramos campanhas e ações que<br/> podem ser inseridas no marketing digital,<br/> sempre com a preocupação de manter um<br/> relacionamento próximo ao cliente e ao<br/> público alvo da sua marca.</p>
+              <p>Elaboramos campanhas e ações que podem ser inseridas no marketing digital, sempre com a preocupação de manter um relacionamento próximo ao cliente e ao público alvo da sua marca.</p>
             </div>
               
 
             <div className="col-12 col-md-6">
 
               <span className="text-icones icone-4">Agilizamos sua<br/> comunicação</span>
-              <p>Para uma comunicação ainda<br/> mais completa, oferecemos os<br/> serviços de assessoria de<br/> imprensa e elaboração de<br/> periódicos.</p>
+              <p>Para uma comunicação ainda mais completa, oferecemos os serviços de assessoria de imprensa e elaboração de periódicos.</p>
 
             </div>
           </div>
@@ -219,13 +217,15 @@ function App() {
                 <img className="maria" src={maria} alt="" />
               </div>
 
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 text-center">
                 <img className="influenciadores" src={vistasuamarca} alt="" />
-                <p>Influenciadores <strong>aumentam sua oportunidade</strong> de relacionamento<br/> e comunicam diretamente para o <strong>seu público.</strong></p>
+                <p>Influenciadores <strong>aumentam sua oportunidade</strong> de relacionamento e comunicam diretamente para o <strong>seu público.</strong></p>
                 <a href="" className="button-influencer">Sou influencer</a>
                 <a href="" className="button-sou-empresa"><p>Sou empresa</p></a>
-                <a href="" className="button-midia-kit"> 
-                  <p className="color-preciso">Preciso de um <span className="color-pink">midia-kit!</span></p></a>
+                
+                <a href="#" className="button-midia-kit"> 
+                  Preciso de um <span className="color-pink">midia-kit!</span>
+                </a>
               </div>
             </div>
         </div>    
@@ -248,13 +248,11 @@ function App() {
               </div>
             </div>
 
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-5">
               <div className="input-block">
                 <input name="email" id="email" placeholder="E-mail" required />
               </div>
             </div>
-          
-
           
             <div className="col-12 col-md-6">
               <div className="input-block">
@@ -282,7 +280,7 @@ function App() {
               </div>
             </div>
 
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-5">
               <div className="input-block">
                 <input name="nichos" id="nichos" placeholder="Nichos # (separados por , )" required />
               </div>
@@ -294,28 +292,24 @@ function App() {
               <div className="input-block">
                 <input name="upload" id="upload" placeholder="fazer upload de midia kit em pdf" required />
               </div>
+
+              <textarea name="" id="" cols="30" rows="10" placeholder="sobre mim"></textarea>
             </div>
         
             
 
-            <div className="col-12 col-md-2">
+            <div className="col-12 col-md-3">
               <img className="photo" src={avatar} alt="" />
             </div>
 
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-3 text-center">
              
-            <a href="" className="button-midia-kit"> 
-                  Preciso de um <span className="color-pink">midia-kit!</span></a>
+              <a href="" className="button-midia-kit"> 
+                  Preciso de um <span className="color-pink">midia-kit!</span>
+              </a>
 
-              <button className="button-default-2"> <img src={button} alt="" /></button>
+              <button className="button-default"><img src={button} alt="" /></button>            
             </div>
-
-            <div className="col-12 col-md-6">
-              <textarea name="" id="" cols="30" rows="10" placeholder="sobre mim"></textarea>
-            </div>
-
-            
-
 
           </form>
         </div>    
@@ -353,9 +347,9 @@ function App() {
                 <input name="cargo" id="cargo" placeholder="cargo" required />
               </div>
             </div>
-          </form>
+          
 
-          <form action="" className="row">
+          
             <div className="col-12 col-md-6">
               <div className="input-block">
                 <input name="DDD" id="DDD" placeholder="(DDD) 9XXXX-XXXX" required />
@@ -367,9 +361,9 @@ function App() {
                 <input name="email" id="email" placeholder="e-mail" required />
               </div>
             </div>
-          </form>
+          
 
-          <form action="" className="row">
+          
             <div className="col-12 col-md-6">
               <div className="input-block">
                 <input name="tipo de campanha" id="tipo de campanha" placeholder="tipo de campanha" required />
@@ -381,9 +375,9 @@ function App() {
                 <input name="objetivo da campanha" id="objetivo da campanha" placeholder="objetivo da campanha" required />
               </div>
             </div>
-          </form>
+          
 
-          <form action="" className="row">
+          
             <div className="col-12 col-md-6">
               <div className="input-block">
                 <input name="persona da campanha" id="persona da campanha" placeholder="persona da campanha" required />
@@ -395,10 +389,10 @@ function App() {
                 <input name="nichos" id="nichos" placeholder="nichos # (separados por ,)" required />
               </div>
             </div>
-          </form>
+          
 
-          <form action="" className="row">
-          <div className="col-12 col-md-3">
+          
+            <div className="col-12 col-md-3">
               <div className="input-block">
                 <input name="gênero" id="gênero" placeholder="gênero" required />
               </div>
@@ -415,9 +409,9 @@ function App() {
                 <input name="localização" id="localização" placeholder="localização" required />
               </div>
             </div>
-          </form>
+          
 
-          <form action="" className="row">
+          
             <div className="col-12 col-md-6">
               <div className="input-block">
                 <input name="verba $" id="verba $" placeholder="verba $" required />
@@ -430,6 +424,10 @@ function App() {
           </form>
         </div>
       </div>
+
+      <Footer/>
+
+     
 
     </>
   )

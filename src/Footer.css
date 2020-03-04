@@ -1,0 +1,140 @@
+.color-red {
+  color: #a10c0c;
+  font-size: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 85px
+}
+
+.mensagem {
+  color: #000000;
+}
+
+.footer-form img {
+  margin-left: 100px;
+}
+
+.mapa form { margin-top: 15px; }
+.mapa form input {
+    width: 190%;
+    border-radius: 8px;
+    border: 2px solid ;
+    color: #cfcecee3;
+    height: 40px;
+    line-height: 55px;
+    padding: 0 15px;
+    background: none;
+    margin-bottom: 15px;
+    text-align: initial;
+    text-transform: uppercase;
+    margin-left: 35px;
+}
+
+.mapa form textarea {
+  width: 190%;
+  border-radius: 8px;
+  border: 2px solid #cfcecee3;
+  padding: 20px;
+  background: none;
+  margin-bottom: 15px;
+  height: 115px;
+  text-align: initial;
+  text-transform: uppercase;
+  margin-left: 35px;
+}
+.mapa img {
+  margin-left: 220px;
+  width: 45%;
+}
+
+.footer-black {
+  height: 25vh;
+  background: #000000;
+  width: 100%;
+  margin-top: -25px;
+  padding: 45px 45px;
+  padding-top: 40px;
+  padding-left: 35px;
+  padding-right: 0px;
+  text-align: initial;
+}
+
+h6 {
+  color: #cfcecee3;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+.endereço {
+  font-size: 15px;
+  color: #cfcecee3;
+  line-height: 20px;
+  background: url('./assets/place.png') left 8px no-repeat;
+  background-size: 20px;
+  margin-left: 10px;
+  background-position: 10px 33px;
+}
+
+.endereço p {
+  padding-left: 30px;
+}
+
+.telefone {
+  font-size: 15px;
+  color: #cfcecee3;
+  line-height: 20px;
+  background: url('./assets/phone.png') left 8px no-repeat;
+  background-size: 20px;
+  margin-left: -10px;
+  background-position: 10px 33px;
+}
+
+.telefone p {
+  padding-left: 30px;
+}
+
+.email {
+  font-size: 15px;
+  color: #cfcecee3;
+  line-height: 20px;
+  background: url('./assets/email.png') left 8px no-repeat;
+  background-size: 20px;
+  margin-left: 10px;
+  background-position: 13px 25px;
+}
+
+.email p{
+  padding-left: 30px;
+}
+
+.follow {
+  font-size: 11px;
+  color: #cfcecee3;
+  line-height: 20px;
+  padding: 5px;
+  margin-left: -60px;
+  background: url('./assets/instagram.png') right 8px no-repeat;
+  background-size: 40px;
+  margin-left: -55px;
+  background-position: 100px 8px;
+}
+
+
+span.instagram {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.dacartola {
+  font-size: 18px;
+  font-weight: 400;
+  color: #cfcecee3;
+  padding: 5px;
+  margin-left: -55px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+

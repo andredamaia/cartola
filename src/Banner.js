@@ -1,6 +1,5 @@
 import React from 'react';
 
-import banner1 from './assets/banner-1.jpg'
 import text1 from './assets/text-1.png'
 
 

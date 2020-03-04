@@ -237,6 +237,7 @@ span.text-yellow {
     margin-bottom: 100px;
     font-size: 17px;
     color: #ffffff;
+    padding: 0 60px;
 }
 
 span.text-icones.icone-1 {
@@ -289,18 +290,14 @@ span.text-icones.icone-4 {
 .bg-maria {
     padding: 80px 0;
     margin-top: 40px;
-    
 }
 
 .bg-maria img.influenciadores {
-    height: 27vh;
-    margin: 25px 15px;
+    max-width: 100%;
 }
 
 .bg-maria img.maria {
-    height: 85vh;
-    margin-left: -170px;
-    margin-top: -30px;
+    max-width: 100%;
 }
 
 .bg-maria p {
@@ -323,17 +320,17 @@ span.text-icones.icone-4 {
     text-transform: uppercase;
     border-color: #000000;
     margin-left: 20px;
-    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
-    transition: all .3s ease-in-out;
     
+}
+
+.button-influencer img:hover {
+    text-decoration: none;
 }
 
 .button-sou-empresa {
     background: #FFFFFF;
     padding: 0 55px;
-    font-size: 15px;
     font-weight: bold;
-    line-height: 25px;
     border-style: outset;
     border-color: #ddd2d2c7;
     border-radius: 55px;
@@ -364,22 +361,14 @@ span.text-icones.icone-4 {
 .button-midia-kit {
     background: #FFFFFF;
     padding: 0 55px;
-    font-weight: bold;
     border-style: outset;
     border-color: #ddd2d2c7;
     border-radius: 55px;
     display: inline-block;
     height: 60px;
-    line-height: 30px;
-    font-size: 20px;
-    text-transform: uppercase;
-    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
     transition: all .3s ease-in-out;
-    border: 1px outset;
+    border: 1px solid #da155e;
     color: #da155e;
-    margin-top: 15px;
-    margin-left: 140px;
-    margin-right: 140px;
 }
 
 span.color-pink {
@@ -431,6 +420,9 @@ span.influencer {
     transition: all .3s ease-in-out;
     border: 1px outset;
 }
+.bg-sou-empresa img {
+    margin-left: 150px;
+}
 
 
 .bg-sou-influencer p {
@@ -438,9 +430,7 @@ span.influencer {
 }
 
 .bg-sou-influencer img.photo {
-    padding: 0;
-    height: 37vh;
-    margin-top: -145px;
+    max-width: 100%;
 }
 
 form { margin-top: 50px; }
@@ -464,18 +454,13 @@ form input {
 form textarea {
     width: 100%;
     border-radius: 8px;
-    border: 2px solid #c20bb3e5;
+    border: 2px solid #000000;
     padding: 20px;
     background: none;
     margin-bottom: 15px;
     height: 180px;
     text-align: center;
     text-transform: uppercase;
-}
-
-.button-default {
-    margin: -10px 180px;
-    height: 0vh;
 }
 
 .bg-sou-empresa {
@@ -509,50 +494,19 @@ span.button-midia-kit {
     
 }
 
-span.color-pink-3 {
-    color: #da155e;
-    font-weight: 900;
-    font-size: 18px;
-}
-
-p.color-preciso-2 {
-    background: #FFFFFF;
-    padding: 0 55px;
-    font-weight: bold;
-    border-style: outset;
-    border-color: #ddd2d2c7;
-    border-radius: 55px;
-    display: inline-block;
-    height: 60px;
-    line-height: 30px;
-    font-size: 20px;
-    text-transform: uppercase;
-    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
-    transition: all .3s ease-in-out;
-    border: 1px outset;
-    color: #da155e;
-    margin-top: 15px;
-    margin-left: 140px;
-    margin-right: 140px;
-}
-
-.button-default-2 {
+.bg-sou-empresa.button-default {
     margin: -10px 180px;
-    height: 0;
+    height: 0vh;
 }
 
-p.color-preciso-3 {
-    background: #FFFFFF;
-    padding: 0 31px;
-    font-weight: bold;
-    border-style: outset;
-    border-color: #ddd2d2c7;
-    border-radius: 55px;
-    display: inline-block;
-    margin-left: 150px;
-    margin-top: -150px;
-    border: 1px outset;
-    color: #da155e;
-    border-color:#da155e ;
-    height: 60px;
+.button-midia-kit {
+    text-transform: none;
+    text-align: center;
+    line-height: 22px;
+    padding-top: 8px;
+    margin: 15px auto;
 }
+    .button-midia-kit span { font-weight: 800; display: block; }
+
+.button-default { border: none; background: none; margin: 0; display: inline-block; }
+
