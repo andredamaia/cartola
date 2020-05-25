@@ -17,16 +17,8 @@ ul {
 
 
 
-.menu li { display: inline; margin-right: 25px }
-  .menu li a {
-    font-size: 22px;
-    font-weight: 450;
-    text-decoration: none;
-    color: #FFFFFF;
-    font-family: 'poppins';
-    text-transform: uppercase;
-   
-  }
+li { display: inline; margin-right: 25px }
+
 
 h2 {
   position: relative;

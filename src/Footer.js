@@ -36,9 +36,11 @@ function Footer() {
 
                                     <textarea name="" id="" cols="30" rows="10" placeholder="mensagem"></textarea>
                                 </div>
+
+                                <button className="button-default"><img src={button} alt="" /></button>
                             </form>
 
-                            <button className="button-default"><img src={button} alt="" /></button>
+                            
 
                             <div className="footer-black">
                                 <div className="row">

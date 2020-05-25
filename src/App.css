@@ -322,10 +322,8 @@ span.text-icones.icone-4 {
     margin-left: 20px;
     
 }
-
-.button-influencer img:hover {
-    text-decoration: none;
-}
+.button-influencer { max-width: 100%; filter: grayscale(0); opacity: 1; transition: all .3s ease-in-out; }
+.button-influencer:hover { filter: whitescale(30%); opacity: .6; text-decoration: none; color:#da155e; }
 
 .button-sou-empresa {
     background: #FFFFFF;
@@ -346,15 +344,17 @@ span.text-icones.icone-4 {
     color: #ddd2d2c7;
     margin-top: 40px;
     
-    
-    
 }
+.button-sou-empresa { max-width: 100%; filter: pinkscale(0); opacity: 1; transition: all .3s ease-in-out; }
+.button-sou-empresa:hover { filter: pinkscale(100%); opacity: 6; text-decoration: none; color:#ffffff;}
 
 .button-sou-empresa p {
     color:#da155e;
     margin: -12px 0;
     font-weight: 700;
 }
+
+
 
 
 
@@ -371,11 +371,15 @@ span.text-icones.icone-4 {
     color: #da155e;
 }
 
+.button-midia-kit:hover { filter: grayscale(0); opacity: 1; text-decoration: none; color:#000000}
+
 span.color-pink {
     color: #da155e;
     font-weight: 900;
     font-size: 18px;
 }
+
+span.color-pink:hover { filter: grayscale(0); opacity: 3; text-decoration: none; color:#000000}
 
 .bg-maria p.color-preciso {
     font-weight: 450;
@@ -447,6 +451,7 @@ form input {
     text-align: center;
     text-transform: uppercase;
 }
+
 
 .rede-social {
     margin-left: 50px;
