@@ -308,7 +308,11 @@ function App() {
                   Preciso de um <span className="color-pink">midia-kit!</span>
               </a>
 
+<<<<<<< HEAD
               <button className="button-default"><img src={button} alt="" /></button>            
+=======
+              <button className="button-default"><img src={button} alt="" /></button>
+>>>>>>> fdd670e85ed85d76eb19f5d32528c9c2a15d9be1
             </div>
 
           </form>

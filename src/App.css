@@ -366,6 +366,12 @@ span.text-icones.icone-4 {
     border-radius: 55px;
     display: inline-block;
     height: 60px;
+<<<<<<< HEAD
+=======
+    line-height: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+>>>>>>> fdd670e85ed85d76eb19f5d32528c9c2a15d9be1
     transition: all .3s ease-in-out;
     border: 1px solid #da155e;
     color: #da155e;
@@ -515,3 +521,34 @@ span.button-midia-kit {
 
 .button-default { border: none; background: none; margin: 0; display: inline-block; }
 
+<<<<<<< HEAD
+=======
+p.color-preciso-3 {
+    background: #FFFFFF;
+    padding: 0 31px;
+    font-weight: bold;
+    border-style: outset;
+    border-color: #ddd2d2c7;
+    border-radius: 55px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: -150px;
+    border: 1px outset;
+    color: #da155e;
+    border-color:#da155e ;
+    height: 60px;
+}
+
+.button-midia-kit {
+    text-transform: none;
+    text-align: center;
+    font-weight: 300;
+    line-height: 22px;
+    padding-top: 8px;
+    font-size: 18px;
+    margin: 15px auto;
+}
+    .button-midia-kit span { font-weight: 800; display: block; }
+
+.button-default { border: none; background: none; margin: 0; display: inline-block; }
+>>>>>>> fdd670e85ed85d76eb19f5d32528c9c2a15d9be1
