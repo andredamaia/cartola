@@ -23,6 +23,30 @@ import button from './assets/button.png'
 import tag from './assets/tag.png'
 import vistasuamarca from './assets/vista-sua-marca.png'
 import avatar from './assets/avatar.png'
+import pedraskraisch from './assets/pedras-kraisch.png'
+import chf from './assets/chf.png'
+import marlene from './assets/marlene.png'
+import forcess from './assets/forcess.png'
+import drvinicius from './assets/dr-vinicius.png'
+import gruporhino from './assets/grupo-rhino.png'
+import urbanii from './assets/urbanii.png'
+import livanto from './assets/livanto.png'
+import santolau from './assets/santo-lau.png'
+import draana from './assets/dra-ana.png'
+import isoplast from './assets/isoplast.png'
+import pietra from './assets/pietra.png'
+import bgchf from './assets/bg-chf.jpg'
+import bgmarlene from './assets/bg-marlene.jpg'
+import bgforcess from './assets/bg-forcess.jpg'
+import bgdrvinicius from './assets/bg-dr-vinicius.jpg'
+import bggruporhino from './assets/bg-grupo-rhino.jpg'
+import bgurbanii from './assets/bg-urbanii.jpg'
+import bglivanto from './assets/bg-livanto.jpg'
+import bgsantolau from './assets/bg-santo-lau.jpg'
+import bgdraana from './assets/bg-dra-ana.jpg'
+import bgisoplast from './assets/bg-isoplast.jpg'
+import bgpietra from './assets/bg-pietra.jpg'
+import bgpedras from './assets/bg-pedras.jpg'
 
 
 
@@ -34,6 +58,7 @@ import './global.css';
 import './Banner.css';
 import './App.css';
 import './Footer.css';
+import './responsivo.css';
 
 
 
@@ -57,7 +82,7 @@ function App() {
             </div>
 
             <div className="col-12 col-md-6">
-              <h3><strong>Cartola</strong> <i>(de quartola) - sf </i> Chapéu com copa <br/> alta, cilíndrica, usada por homens com <strong>trajes a <br/> rigor.</strong> sm indivíduo da alta sociedade: <strong>grã-fino.</strong></h3>
+              <h3><strong>Cartola</strong> <i>(de quartola) - sf </i> Chapéu com copa alta, cilíndrica, usada por homens com <strong>trajes a rigor.</strong> sm indivíduo da alta sociedade: <strong>grã-fino.</strong></h3>
             </div>
           </div>
         </div>
@@ -84,18 +109,66 @@ function App() {
         </div> 
 
         <div className="clients-holder">
-          <div className="box"><img src={casageraldo} alt="" /></div>
-          <div className="box"><img src={casageraldo} alt="" /></div>
-          <div className="box"><img src={casageraldo} alt="" /></div>
-          <div className="box"><img src={casageraldo} alt="" /></div>
-          <div className="box"><img src={casageraldo} alt="" /></div>
-          <div className="box"><img src={casageraldo} alt="" /></div>
-          <div className="box"><img src={casageraldo} alt="" /></div>
-          <div className="box"><img src={casageraldo} alt="" /></div>
-          <div className="box"><img src={casageraldo} alt="" /></div>
-          <div className="box"><img src={casageraldo} alt="" /></div>
-          <div className="box"><img src={casageraldo} alt="" /></div>
-          <div className="box"><img src={casageraldo} alt="" /></div>
+          <div className="box">
+            <img className="img-background" src={bgpedras} alt="" />
+            <img className="img-logo" src={pedraskraisch} alt="" />
+          </div>
+
+          <div className="box">
+            <img className="img-background" src={bgchf} alt="" />
+            <img className="img-logo" src={chf} alt="" />
+          </div>
+
+          <div className="box">
+            <img className="img-background" src={bgmarlene} alt="" />
+            <img className="img-logo" src={marlene} alt="" />
+          </div>
+
+          <div className="box">
+            <img className="img-background" src={bgforcess} alt="" />
+            <img className="img-logo" src={forcess} alt="" />
+          </div>
+
+          <div className="box">
+            <img className="img-background" src={bgdrvinicius} alt="" />
+            <img className="img-logo" src={drvinicius} alt="" />
+          </div>
+
+          <div className="box">
+            <img className="img-background" src={bggruporhino} alt="" />
+            <img className="img-logo" src={gruporhino} alt="" />
+          </div>
+
+          <div className="box">
+            <img className="img-background" src={bgurbanii} alt="" />
+            <img className="img-logo" src={urbanii} alt="" />
+          </div>
+
+          <div className="box">
+            <img className="img-background" src={bglivanto} alt="" />
+            <img className="img-logo" src={livanto} alt="" />
+          </div>
+
+          <div className="box">
+            <img className="img-background" src={bgsantolau} alt="" />
+            <img className="img-logo" src={santolau} alt="" />
+          </div>
+
+          <div className="box">
+            <img className="img-background" src={bgdraana} alt="" />
+            <img className="img-logo" src={draana} alt="" />
+          </div>
+
+          <div className="box">
+            <img className="img-background" src={bgisoplast} alt="" />
+            <img className="img-logo" src={isoplast} alt="" />
+          </div>
+
+          <div className="box">
+            <img className="img-background" src={bgpietra} alt="" />
+            <img className="img-logo" src={pietra} alt="" />
+          </div>
+          
         </div>   
       </div>
 
@@ -304,15 +377,13 @@ function App() {
 
             <div className="col-12 col-md-3 text-center">
              
-              <a href="" className="button-midia-kit"> 
+              <a href="/" className="button-midia-kit"> 
                   Preciso de um <span className="color-pink">midia-kit!</span>
               </a>
 
-<<<<<<< HEAD
               <button className="button-default"><img src={button} alt="" /></button>            
-=======
-              <button className="button-default"><img src={button} alt="" /></button>
->>>>>>> fdd670e85ed85d76eb19f5d32528c9c2a15d9be1
+
+
             </div>
 
           </form>
