@@ -4,17 +4,20 @@
 .bg-sobre {
     background: url('./assets/bg-sobre.png') center center no-repeat;
     position: relative;
-    height: 75vh;
-    margin-top: -260px;
+    height: auto;
+    background-size: cover;
+    margin-top: -20vh;
+    padding: 150px 0;
 }
 
 h1 {
-    margin-top: 195px;
-    padding-left: 300px;
+    margin-top: 0;
+    padding-left: 0;
+    font-size: 62px;
+    line-height: 62px;
 }
 
 h3 {
-    margin-top: 200px;
     font-size: 20px;
     padding-left: 50px;
     padding-top: 10px;
@@ -42,22 +45,21 @@ i {
     font-style: italic;
 }
 .deixe-a-cartola {
-    margin-top: -230px;
+    margin-top: 0;
     background: url('./assets/deixe-a-cartola.jpg') center center no-repeat;
     position: relative;
-    height: 75vh;
+    height: 560px;
+    background-size: cover;
 }
 
 .portifolio {
-   
+    padding: 80px 0;
     position: relative;
-    height: 75vh;
-    margin-top: -115px;
 }
 
 h2.text-portifolio {
     text-align: center;
-    padding: 220px 0;
+    padding: 20px 0;
     color: #000000;
     font-size: 50px;
     font-weight: 750;
@@ -65,38 +67,54 @@ h2.text-portifolio {
 }
 p.text-black {
     color: #000000;
-    margin-top: -175px;
+    margin-top: 30px;
     text-align: center;
     font-size: 27px;
+    margin-bottom: 60px;
 }
+
+
 
 .clients-holder {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 2fr;
-    padding: 50px 0;
+    /* padding: 50px 0; */
 }
-.clients-holder .box { 
-    padding: 120px 15px; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+.clients-holder .box {
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-style: solid;
-        border-top-width: 0.5px;
-        border-right-width: 0.5px;
-        border-bottom-width: 0.5px;
-        border-left-width: 0.5px;
-        color: #ffffff;
-        background: #000000;
+    border-top-width: 0.5px;
+    border-right-width: 0.5px;
+    border-bottom-width: 0.5px;
+    border-left-width: 0.5px;
+    color: #ffffff;
+    background: #000000;
     position: relative;
 }
 
 .clients-holder img.img-background { max-width: 100%; filter: grayscale(100%); opacity: .6; transition: all .3s ease-in-out; }
-.clients-holder img.img-background:hover { filter: grayscale(0); opacity: 1; }
-.box:hover {background: red; transition: all .3s ease-in-out;}
+/* .clients-holder img.img-background:hover { filter: grayscale(0); opacity: 1; } */
+.box:hover { background: red; transition: all .3s ease-in-out; }
 
 .box{
     position: relative;
+    transition: all .3s ease-in-out; 
+}
+
+.box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .box img.img-background  {
@@ -107,47 +125,57 @@ p.text-black {
     height: 100%;
 }
 
-.box img.img-logo  {
+.box img.img-logo {
     position: absolute;
     z-index: 100;
     text-align: center;
-    width: 70%;
+    max-width: 50%;
 }
 
-
+/* 
 .bg-yellow {
     
     background: url('./assets/bg-servicos.jpg') center center no-repeat;
     position: relative;
     height: 165vh;
     margin-top: -250px;
-}
+} */
 
-.bg-yellow img {
+/* .bg-yellow img {
     position: relative;
     height: 56vh;
     margin-top: 365px;
     margin-left: 110px;
-}
+} */
 .bg-white {
-    margin-top: 350px;
+    /* margin-top: 350px; */
+    padding: 60px 0;
 }
 
 .bg-white .empresas {
-    display: inline-flex ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
     position: relative;
     margin-top: 50px;
 }
-
+    .empresas div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 130px;
+    }
+    .empresas img { max-width: 90%; max-height: 70%; }
+/* 
 .bg-white .empresas img {
     width: 115px;
     margin: 25px 15px;
-}
+} */
 
 p.bg-white-text {
     text-align: center;
     color: #000000;
-    margin-top: 150px;
+    /* margin-top: 150px; */
     font-size: 50px;
 }
 
@@ -167,7 +195,7 @@ h4 {
 }
 
 .white-end {
-    margin-top: -340px;
+    /* margin-top: -340px; */
 }
 .white-end img {
     height: 40vh;
@@ -179,9 +207,9 @@ h4 {
 .bg-black {
     background: url('./assets/bg-servicos1.jpg') center center no-repeat;
     width: 100%;
-    height: 100vh;
+    background-size: cover;
     position: relative;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .bg-black img {
@@ -242,10 +270,9 @@ span.text-yellow {
 }
 
 .bg-pink {
-    background: url('./assets/bg-servicos-2.jpg') center center no-repeat;
+    background: url('./assets/bg-materiais.jpg') fixed center center no-repeat;
     position: relative;
-    height: 100vh;
-    padding: 135px 0;
+    padding: 120px 0 80px;
     text-align: center;
 }
 
@@ -323,8 +350,8 @@ span.text-icones.icone-4 {
 }
 
 .button-influencer {
-    background: linear-gradient(11deg, rgba(233,112,51,1) 14%, rgba(230,81,50,1) 31%, rgba(184,74,53,1) 47%, rgba(236,34,103,1) 79%);
-    padding: 0 43px;
+    background: #fff;
+    padding: 0 40px;
     font-weight: bold;
     border-radius: 55px;
     display: inline-block;
@@ -333,35 +360,35 @@ span.text-icones.icone-4 {
     line-height: 55px;
     font-size: 20px;
     text-transform: uppercase;
-    border-color: #000000;
+    border: 1px solid #da155e;
+    color: #da155e;
     margin-left: 20px;
-    
+    transition: all .3s ease-in-out;
 }
-.button-influencer { max-width: 100%; filter: grayscale(0); opacity: 1; transition: all .3s ease-in-out; }
-.button-influencer:hover { filter: whitescale(30%); opacity: .6; text-decoration: none; color:#da155e; }
 
 .button-sou-empresa {
     background: #FFFFFF;
     padding: 0 55px;
     font-weight: bold;
-    border-style: outset;
-    border-color: #ddd2d2c7;
     border-radius: 55px;
     display: inline-block;
     height: 60px;
     line-height: 55px;
     font-size: 20px;
     text-transform: uppercase;
-    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
     transition: all .3s ease-in-out;
     border: 1px outset;
     margin-left: 13px;
-    color: #ddd2d2c7;
-    margin-top: 40px;
-    
+    border: 1px solid #da155e;
+    margin-top: 40px;   
+    color: #da155e;
 }
-.button-sou-empresa { max-width: 100%; filter: pinkscale(0); opacity: 1; transition: all .3s ease-in-out; }
-.button-sou-empresa:hover { filter: pinkscale(100%); opacity: 6; text-decoration: none; color:#ffffff;}
+
+.button-influencer:hover, .button-sou-empresa:hover { 
+    background: linear-gradient(11deg, rgba(233,112,51,1) 14%, rgba(230,81,50,1) 31%, rgba(184,74,53,1) 47%, rgba(236,34,103,1) 79%); 
+    text-decoration: none; color:#da155e; 
+    color: #fff;
+}
 
 .button-sou-empresa p {
     color:#da155e;
@@ -434,9 +461,11 @@ span.influencer {
     font-size: 20px;
     text-transform: uppercase;;
     margin-left: 200px;
-    box-shadow: 0 0 20px rgba(254, 230, 0, .2);
+    /* box-shadow: 0 0 20px rgba(254, 230, 0, .2); */
     transition: all .3s ease-in-out;
     border: 1px outset;
+    font-size: 20px;
+    margin-left: -35px;
 }
 .bg-sou-empresa img {
     margin-left: 150px;
@@ -486,10 +515,9 @@ form textarea {
     padding:  100px 0;
 }
 
-.bg-sou-empresa p {
-    font-size: 20px;
-    margin-left: -35px;
-}
+/* .bg-sou-empresa p {
+    
+} */
 
 span.button-midia-kit {
     background: #FFFFFF;

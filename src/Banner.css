@@ -2,11 +2,13 @@
     position: relative;
     background: url('./assets/banner-1.jpg') center center no-repeat;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner img {
-    height: 15vh;
-    margin: 450px;
+    
 }
 
 
