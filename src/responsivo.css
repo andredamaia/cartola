@@ -1,0 +1,28 @@
+@media (max-width:948px) {
+    .container {
+        width: auto;
+    }
+
+    .bg-sobre {
+        height: 85vh;
+        text-align: center;
+    }
+
+    h1 {
+        padding-left: 0;
+    }
+
+    h3 {
+        margin-top: 15px;
+        border: none;
+        padding: 0;
+    }
+
+    .deixe-a-cartola {
+        height: 15vh;
+        background-size: contain;
+        width: 100%;
+    }
+
+
+}

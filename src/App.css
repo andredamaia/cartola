@@ -76,8 +76,8 @@ p.text-black {
     grid-template-rows: 2fr;
     padding: 50px 0;
 }
-.clients-holder div { 
-    padding: 100px 15px; 
+.clients-holder .box { 
+    padding: 120px 15px; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -88,10 +88,31 @@ p.text-black {
         border-left-width: 0.5px;
         color: #ffffff;
         background: #000000;
-
+    position: relative;
 }
-.clients-holder img { max-width: 100%; filter: grayscale(100%); opacity: .6; transition: all .3s ease-in-out; }
-.clients-holder img:hover { filter: grayscale(0); opacity: 1; }
+
+.clients-holder img.img-background { max-width: 100%; filter: grayscale(100%); opacity: .6; transition: all .3s ease-in-out; }
+.clients-holder img.img-background:hover { filter: grayscale(0); opacity: 1; }
+.box:hover {background: red; transition: all .3s ease-in-out;}
+
+.box{
+    position: relative;
+}
+
+.box img.img-background  {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.box img.img-logo  {
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    width: 70%;
+}
 
 
 .bg-yellow {
@@ -196,10 +217,6 @@ h4 {
         background: #000000;
 }
 
-
-
-
-
 p.text-bg-black-1 {
     color: #ffffff;
     padding: 30px;
@@ -217,6 +234,7 @@ h6.text-bg-black-2 {
     font-weight: 700;
     text-align: initial;
     font-weight: 700;
+    line-height: 25px;
 }
 
 span.text-yellow {
@@ -255,9 +273,6 @@ span.text-icones.icone-2 {
     padding-left: 90px;
     background-position: 5px 4px;
 }
-
-
-    
 
 span.text-icones.icone-3 {
     color: #ffffff;
@@ -353,10 +368,6 @@ span.text-icones.icone-4 {
     margin: -12px 0;
     font-weight: 700;
 }
-
-
-
-
 
 .button-midia-kit {
     background: #FFFFFF;
