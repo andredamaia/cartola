@@ -92,8 +92,8 @@ p.text-black {
 }
 
 .clients-holder img.img-background { max-width: 100%; filter: grayscale(100%); opacity: .6; transition: all .3s ease-in-out; }
-.clients-holder img.img-background:hover { filter: grayscale(0); opacity: 1; }
-.box:hover {background: red; transition: all .3s ease-in-out;}
+.clients-holder img.img-background:hover { background: #801f29; opacity: 1; }
+.box:hover {background: #801f29; transition: all .3s ease-in-out; opacity: 1.0;}
 
 .box{
     position: relative;
