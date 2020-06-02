@@ -15,9 +15,9 @@
   margin-left: 100px;
 }
 
-.mapa form { margin-top: 15px; }
+.mapa form { margin-top: 15px; padding: 30px 60px; }
 .mapa form input {
-    width: 190%;
+    width: 100%;
     border-radius: 8px;
     border: 2px solid ;
     color: #cfcecee3;
@@ -28,11 +28,10 @@
     margin-bottom: 15px;
     text-align: initial;
     text-transform: uppercase;
-    margin-left: 35px;
 }
 
 .mapa form textarea {
-  width: 190%;
+  width: 100%;
   border-radius: 8px;
   border: 2px solid #cfcecee3;
   padding: 20px;
@@ -41,7 +40,6 @@
   height: 115px;
   text-align: initial;
   text-transform: uppercase;
-  margin-left: 35px;
 }
 .mapa img {
   margin-left: 220px;
@@ -49,14 +47,14 @@
 }
 
 .footer-black {
-  height: 25vh;
+  height: auto;
   background: #000000;
   width: 100%;
-  margin-top: -25px;
-  padding: 45px 45px;
-  padding-top: 40px;
-  padding-left: 35px;
-  padding-right: 0px;
+  margin-top: -60px;
+  padding: 60px;
+  /* padding-top: 40px; */
+  /* padding-left: 35px; */
+  /* padding-right: 0px; */
   text-align: initial;
 }
 
