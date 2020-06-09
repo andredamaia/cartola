@@ -18,12 +18,17 @@
     }
 
     .bg-sobre {
-        height: 85vh;
+        height: 60vh;
         text-align: center;
+        margin-top: -10vh;
+        padding: 115px 0 80px;
     }
 
     h1 {
         padding-left: 0;
+        font-size: 55px;
+        line-height: 55px;
+        text-align: center;
     }
 
     h3 {
@@ -32,15 +37,182 @@
         padding: 0;
     }
 
+    h4 {
+        font-size: 20px;
+        border: none;
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    .portifolio {
+        padding: 60px 0;
+    }
+
+    h2.text-portifolio {
+        padding: 10px 0;
+    }
+
     .deixe-a-cartola {
-        height: 15vh;
-        background-size: contain;
-        width: 100%;
+        height: 25vh;
+        background-size: cover;
+        width: auto;
+        margin: 30px 0 0 0;
     }
 
     .clients-holder {
         grid-template-columns: 1fr 1fr;
     }
 
+    p.text-black {
+        font-size: 20px;
+        font-weight: 400;
+    }
 
+    p .text-black {
+        font-size: 20px;
+    }
+
+    .box img.img-logo {
+        max-width: 80%;
+    }
+
+    .bg-white {
+        padding: 0 0 20px 0;
+    }
+
+    p.bg-white-text {
+        line-height: 55px;
+    }
+
+    .bg-white .empresas {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .empresas img {
+        max-width: 70%;
+        max-height: 80%;
+    }
+
+    .bg-yellow {
+        height: 25vh;
+        width: auto;
+    }
+
+    .bg-yellow img {
+        max-width: 100%;
+    }
+
+    .bg-maria {
+        margin-top: 0;
+    }
+
+    .white-end {
+        text-align: center;
+        padding: 20px 0 50px;
+    }
+
+    .white-end img {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        max-width: 90%;
+    }
+
+
+    .button-sou-empresa {
+        margin-top: 15px;
+    }
+
+    .mapa img {
+        margin-left: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bg-pink {
+        padding: 120px 0 60px;
+    }
+
+    .bg-pink p {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .text-icones {
+        font-size: 25px;
+    }
+
+    p.text-bg-black-1 {
+        margin-top: 0;
+    }
+
+    .outdoor {
+        left: 10px;
+        top: 5px;
+        width: 30%;
+    }
+
+    .revista {
+        left: 0;
+        bottom: 0;
+        width: 20%;
+    }
+
+    .flyers {
+        right: 10px;
+        top: 5px;
+        width: 30%;
+    }
+
+    .camisetas {
+        right: 0;
+        bottom: 0;
+        width: 30%;
+    }
+
+    .cartao {
+        display: none;
+    }
+
+    .computador {
+        display: none;
+    }
+
+    /*Footer*/
+
+    .footer-black {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .endereço , .telefone , .email { 
+        margin-left: 0;
+        background-size: 20px;
+        background-position: 125px 0px;
+    }
+
+    .dacartola {
+        margin-left: 0;
+    }
+
+    .endereço p , .telefone p {
+        padding: 0;
+    }
+
+    .follow {
+        margin: 0;
+        background-position: 110px 10px;
+    }
+
+    .black-icon {
+        grid-template-columns: 1fr;
+        padding: 50px 0;
+    }
+
+    .bg-black {
+        padding: 80px 0 40px;
+    }
 }
+    

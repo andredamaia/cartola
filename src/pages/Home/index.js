@@ -46,6 +46,15 @@ import bgisoplast from '../../assets/bg-isoplast.jpg'
 import bgpietra from '../../assets/bg-pietra.jpg'
 import bgpedras from '../../assets/bg-pedras.jpg'
 
+import outdoor from '../../assets/outdoor.png'
+import cartao from '../../assets/cartao.png'
+import revista from '../../assets/revista.png'
+import flyers from '../../assets/flyers.png'
+import computador from '../../assets/computador.png'
+import camisetas from '../../assets/camisetas.png'
+
+
+
 function Home() {
   return (
     <>
@@ -54,14 +63,17 @@ function Home() {
         <div className="bg-sobre">
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-md-8 offset-md-2">
+                    <div className="col-12">
                     <div className="row">
                         <div className="col-12 col-md-5">
-                        <h1>Sobre a <br/><span className="text-red">Cartola</span></h1>
+                        <h1>Por que <br/><span className="text-red">Cartola?</span></h1>
                         </div>
 
                         <div className="col-12 col-md-7">
-                        <h3><strong>Cartola</strong> <i>(de quartola) - sf </i> Chapéu com copa alta, cilíndrica, usada por homens com <strong>trajes a rigor.</strong> sm indivíduo da alta sociedade: <strong>grã-fino.</strong></h3>
+                        <h3>Sabe aquele indivíduo que nas décadas 20 e 30 usava trajes diferenciados e se destacava na multidão, por ser mais distinto, ousado e intelectual? Então, ele vestia uma cartola. <br/> Vem vestir <strong>a Cartola</strong>  e se destacar também.
+                        </h3>
+
+
                         </div>
                     </div>
                     </div>
@@ -188,7 +200,7 @@ function Home() {
                 </div>
 
                 <div className="col-12 col-md-6">
-                    <h4>Mais do que cuidar e padronizar a <br/> imagem da sua empresa, <strong>a Cartola</strong> veste <br/> seu negócio com resultado positivo e o <br/> <strong>destaca</strong> no meio da multidão de marcas <br/> que existem <i>em seu mercado.</i></h4>
+                    <h4>Mais do que cuidar e padronizar a imagem da sua empresa, <strong>a Cartola</strong> veste seu negócio com resultado positivo e o <strong>destaca</strong> no meio da multidão de marcas que existem <i>em seu mercado.</i></h4>
                 </div>
                 </div>
             </div>    
@@ -197,29 +209,49 @@ function Home() {
         <div className="bg-black">
             <div className="container">
                 <div className="row">
-                    <div className="col-6 ">
+                    <div className="col-12 col-md-6 ">
                         <p className="text-bg-black-1">Diversos serviços voltados para <strong>marketing </strong> (<i>offline e digital</i>) e <strong>jornalismo</strong>, desde o estudo aprofundado da empresa <strong>até a comunicação final</strong>, sempre apresentando as <strong> melhores soluções</strong> para tornar sua marca referência no mercado. </p>
 
                         <h6 className="text-bg-black-2"> <span className="text-yellow">A Cartola</span> não apenas faz sua cabeça, ela também cuida de todo seu traje.</h6>
 
                     </div>
                     
-                    <div className="col-6 black-icon">
-                        <img src={servicos1} alt="" />
-                        <img src={servicos2} alt="" />
-                        <img src={servicos3} alt="" />
-                        <img src={servicos4} alt="" />
+                    <div className="col-12 col-md-6 ">
+                        <div className="black-icon">
+                            <div>
+                                <img src={servicos1} alt="" />
+                                <p classname="text-grid">Vestimos a sua marca</p>
+                            </div>
                         
-                        <p classname="text-grid">Vestimos a sua marca</p>
-                        <p classname="text-grid">Estilizamos sua identidade visual</p>
-                        <p classname="text-grid">Modernizamos seu<br/> marketing</p>
-                        <p classname="text-grid">Agilizamos sua comunicação</p>
+                            <div>
+                                <img src={servicos2} alt="" />
+                                <p classname="text-grid">Estilizamos sua identidade visual</p>
+                            </div>
+
+                            <div>
+                                <img src={servicos3} alt="" />
+                                <p classname="text-grid">Modernizamos seu<br/> marketing</p>
+                            </div>
+
+                            <div>
+                                <img src={servicos4} alt="" />
+                                <p classname="text-grid">Agilizamos sua comunicação</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>    
         </div>
 
         <div className="bg-pink">
+            
+            <img className="outdoor" src={outdoor} alt="" />
+            <img className="cartao" src={cartao} alt="" />
+            <img className="revista" src={revista} alt="" />
+            <img className="flyers" src={flyers} alt="" />
+            <img className="computador" src={computador} alt="" />
+            <img className="camisetas" src={camisetas} alt="" />
+
             <div className="container flex">
             <div className="row">
                 <div className="col-12 col-md-6">
