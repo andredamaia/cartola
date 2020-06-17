@@ -45,6 +45,9 @@ import bgdraana from '../../assets/bg-dra-ana.jpg'
 import bgisoplast from '../../assets/bg-isoplast.jpg'
 import bgpietra from '../../assets/bg-pietra.jpg'
 import bgpedras from '../../assets/bg-pedras.jpg'
+import bglevpao from '../../assets/bg-lev-pao.jpg'
+import levpao from '../../assets/lev-pao.png'
+import goedert from '../../assets/goedert.png'
 
 import outdoor from '../../assets/outdoor.png'
 import cartao from '../../assets/cartao.png'
@@ -52,6 +55,8 @@ import revista from '../../assets/revista.png'
 import flyers from '../../assets/flyers.png'
 import computador from '../../assets/computador.png'
 import camisetas from '../../assets/camisetas.png'
+import nuvemdireita from '../../assets/nuvem-direita.png'
+import nuvemesquerda from '../../assets/nuvem-esquerda.png'
 
 
 
@@ -64,27 +69,29 @@ function Home() {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                    <div className="row">
-                        <div className="col-12 col-md-5">
-                        <h1>Por que <br/><span className="text-red">Cartola?</span></h1>
+                        <div className="row">
+                            <div className="col-12 col-md-5">
+                                <h1>Por que <br/><span className="text-red">Cartola?</span></h1>
+                            </div>
+
+                            <div className="col-12 col-md-7">
+                                <h3>Sabe aquele indivíduo que nas décadas 20 e 30 usava trajes diferenciados e se destacava na multidão, por ser mais distinto, ousado e intelectual? Então, ele vestia uma cartola. <br/> Vem vestir <strong>a Cartola</strong>  e se destacar também.
+                                </h3>
+                            </div>
                         </div>
-
-                        <div className="col-12 col-md-7">
-                        <h3>Sabe aquele indivíduo que nas décadas 20 e 30 usava trajes diferenciados e se destacava na multidão, por ser mais distinto, ousado e intelectual? Então, ele vestia uma cartola. <br/> Vem vestir <strong>a Cartola</strong>  e se destacar também.
-                        </h3>
-
-
-                        </div>
-                    </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div className="deixe-a-cartola">
+
+        <img className="img-direita" src={nuvemdireita} alt="" />
+        <img className="img-esquerda" src={nuvemesquerda} alt="" />
+
             <div className="container">
                 <div className="row">
-                <div className="col-12"></div>
+                    <div className="col-12"></div>
                 </div>
             </div>    
         </div>
@@ -102,88 +109,90 @@ function Home() {
             </div> 
 
             <div className="clients-holder">
-            <div className="box">
-                <img className="img-background" src={bgpedras} alt="" />
-                <img className="img-logo" src={pedraskraisch} alt="" />
-            </div>
+                <div className="box">
+                    <img className="img-background" src={bgpedras} alt="" />
+                    <img className="img-logo" src={pedraskraisch} alt="" />
+                </div>
 
-            <div className="box">
-               <Link to="/clientes/chf">
-                    <img className="img-background" src={bgchf} alt="" />
-                    <img className="img-logo" src={chf} alt="" />
-               </Link>
-            </div>
+                <div className="box">
+                    <Link to="/clientes/chf">
+                        <img className="img-background" src={bgchf} alt="" />
+                        <img className="img-logo" src={chf} alt="" />
+                    </Link>
+                </div>
 
-            <div className="box">
-                <img className="img-background" src={bgmarlene} alt="" />
-                <img className="img-logo" src={marlene} alt="" />
-            </div>
+                <div className="box">
+                    <img className="img-background" src={bgmarlene} alt="" />
+                    <img className="img-logo" src={marlene} alt="" />
+                </div>
 
-            <div className="box">
-                <img className="img-background" src={bgforcess} alt="" />
-                <img className="img-logo" src={forcess} alt="" />
-            </div>
+                <div className="box">
+                    <img className="img-background" src={bgforcess} alt="" />
+                    <img className="img-logo" src={forcess} alt="" />
+                </div>
 
-            <div className="box">
-                <img className="img-background" src={bgdrvinicius} alt="" />
-                <img className="img-logo" src={drvinicius} alt="" />
-            </div>
+                <div className="box">
+                    <img className="img-background" src={bgdrvinicius} alt="" />
+                    <img className="img-logo" src={drvinicius} alt="" />
+                </div>
 
-            <div className="box">
-                <img className="img-background" src={bggruporhino} alt="" />
-                <img className="img-logo" src={gruporhino} alt="" />
-            </div>
+                <div className="box">
+                    <img className="img-background" src={bglevpao} alt="" />
+                    <img className="img-logo" src={levpao} alt="" />
+                </div>
 
-            <div className="box">
-                <img className="img-background" src={bgurbanii} alt="" />
-                <img className="img-logo" src={urbanii} alt="" />
-            </div>
+                <div className="box">
+                    <img className="img-background" src={bgurbanii} alt="" />
+                    <img className="img-logo" src={urbanii} alt="" />
+                </div>
 
-            <div className="box">
-                <img className="img-background" src={bglivanto} alt="" />
-                <img className="img-logo" src={livanto} alt="" />
-            </div>
+                <div className="box">
+                    <img className="img-background" src={bglivanto} alt="" />
+                    <img className="img-logo" src={livanto} alt="" />
+                </div>
 
-            <div className="box">
-                <img className="img-background" src={bgsantolau} alt="" />
-                <img className="img-logo" src={santolau} alt="" />
-            </div>
+                <div className="box">
+                    <img className="img-background" src={bgsantolau} alt="" />
+                    <img className="img-logo" src={santolau} alt="" />
+                </div>
 
-            <div className="box">
-                <img className="img-background" src={bgdraana} alt="" />
-                <img className="img-logo" src={draana} alt="" />
-            </div>
+                <div className="box">
+                    <img className="img-background" src={bgdraana} alt="" />
+                    <img className="img-logo" src={draana} alt="" />
+                </div>
 
-            <div className="box">
-                <img className="img-background" src={bgisoplast} alt="" />
-                <img className="img-logo" src={isoplast} alt="" />
-            </div>
+                <div className="box">
+                    <img className="img-background" src={bgisoplast} alt="" />
+                    <img className="img-logo" src={isoplast} alt="" />
+                </div>
 
-            <div className="box">
-                <img className="img-background" src={bgpietra} alt="" />
-                <img className="img-logo" src={pietra} alt="" />
-            </div>
-            
+                <div className="box">
+                    <img className="img-background" src={bgpietra} alt="" />
+                    <img className="img-logo" src={pietra} alt="" />
+                </div>
+                
             </div>   
         </div>
 
         <div className="bg-white">
             <div className="container">
                 <div className="row">
-                <div className="col-12">
-                    <p className="bg-white-text">Mais clientes de <strong>Cartola</strong> </p>
-                </div>
+                    <div className="col-12">
+                        <p className="bg-white-text">Mais clientes de <strong>Cartola</strong> </p>
+                    </div>
 
-                <div className="empresas">
-                    <div><img src={solid} alt="" /></div>
-                    <div><img src={bentec} alt="" /></div>
-                    <div><img src={adoremus} alt="" /></div>
-                    <div><img src={casageraldo} alt="" /></div>
-                    <div><img src={grupoazarte} alt="" /></div>
-                    <div><img src={happytour} alt="" /></div>
-                    <div><img src={mhg} alt="" /></div>
-                    <div><img src={lenasouza} alt="" /></div>
-                </div>
+                    <div className="empresas">
+                        <div><img src={solid} alt="" /></div>
+                        <div><img src={bentec} alt="" /></div>
+                        <div><img src={goedert} alt="" /></div>
+                        <div><img src={casageraldo} alt="" /></div>
+                        <div><img src={gruporhino} alt="" /></div>
+                        <div><img src={happytour} alt="" /></div>
+                        <div><img src={mhg} alt="" /></div>
+                        <div><img src={lenasouza} alt="" /></div>
+                        <div><img src={grupoazarte} alt="" /></div>
+                        <div><img src={adoremus} alt="" /></div>
+                    </div>
                 </div>
             </div>    
         </div>
@@ -195,13 +204,13 @@ function Home() {
         <div className="white-end">
             <div className="container">
                 <div className="row">
-                <div className="col-12 col-md-6">
-                    <img src={importante} alt="" />
-                </div>
+                    <div className="col-12 col-md-6">
+                        <img src={importante} alt="" />
+                    </div>
 
-                <div className="col-12 col-md-6">
-                    <h4>Mais do que cuidar e padronizar a imagem da sua empresa, <strong>a Cartola</strong> veste seu negócio com resultado positivo e o <strong>destaca</strong> no meio da multidão de marcas que existem <i>em seu mercado.</i></h4>
-                </div>
+                    <div className="col-12 col-md-6">
+                        <h4>Mais do que cuidar e padronizar a imagem da sua empresa, <strong>a Cartola</strong> veste seu negócio com resultado positivo e o <strong>destaca</strong> no meio da multidão de marcas que existem <i>em seu mercado.</i></h4>
+                    </div>
                 </div>
             </div>    
         </div>

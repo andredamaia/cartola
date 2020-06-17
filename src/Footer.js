@@ -1,6 +1,7 @@
 import React from 'react';
 
 import button from './assets/button.png'
+import instagram from './assets/instagram.png'
 
 
 
@@ -38,7 +39,7 @@ function Footer() {
                                 </div>
 
                                 <div className="col-12">
-                                <button className="button-default"><img src={button} alt="" /></button>
+                                    <button className="button-default"><img src={button} alt="" /></button>
                                 </div>
                             </form>
 
@@ -67,12 +68,12 @@ function Footer() {
                                     </div>
 
                                     <div className="col-12 col-md-4 follow">
-                                        <p>Follow us on<br/> <span className="instagram">Instagram</span></p>
-
+                                        <a href="#"><img src={instagram} alt="" /></a>
+                                    
                                     </div>
 
                                     <div className="col-12 col-md-2 dacartola">
-                                        <p>@dacartola</p>
+                                        <p>@Agenciacartola</p>
                                     </div>
               
                                 </div>
