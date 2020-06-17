@@ -48,6 +48,7 @@ import bgpedras from '../../assets/bg-pedras.jpg'
 import bglevpao from '../../assets/bg-lev-pao.jpg'
 import levpao from '../../assets/lev-pao.png'
 import goedert from '../../assets/goedert.png'
+import tarja from '../../assets/tarja.jpg'
 
 import outdoor from '../../assets/outdoor.png'
 import cartao from '../../assets/cartao.png'
@@ -300,6 +301,9 @@ function Home() {
         </div>
 
         <div className="bg-maria">
+
+            <a href="#"> <img className="tarja" src={tarja} alt="" /></a>
+            
             <div className="container">
                 <div className="row">
                 <div className="col-12 col-md-6">

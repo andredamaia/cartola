@@ -73,7 +73,7 @@ function Footer() {
                                     </div>
 
                                     <div className="col-12 col-md-2 dacartola">
-                                        <p>@Agenciacartola</p>
+                                        <p>@agenciacartola</p>
                                     </div>
               
                                 </div>
