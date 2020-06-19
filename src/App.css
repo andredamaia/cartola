@@ -454,7 +454,8 @@ span.text-icones.icone-4 {
 }
 
 .button-influencer:hover, .button-sou-empresa:hover { 
-    background: linear-gradient(11deg, rgba(233,112,51,1) 14%, rgba(230,81,50,1) 31%, rgba(184,74,53,1) 47%, rgba(236,34,103,1) 79%); 
+    background: rgb(243,142,54);
+    background: linear-gradient(15deg, rgba(243,142,54,1) 0%, rgba(240,83,52,1) 50%, rgba(195,30,106,1) 100%);
     text-decoration: none; color:#da155e; 
     color: #fff;
 }

@@ -2,10 +2,16 @@ import React from 'react';
 
 import { Container } from './styles';
 
-import logoChf from '../../assets/logo-chf.png';
-import site from '../../assets/site.jpg';
-import catalogo from '../../assets/catalogos-chf.jpg';
-import carro from '../../assets/carro-chf.jpg';
+import logochf from '../../assets/logo-chf.png';
+import chfapresentacao from '../../assets/chf-apresentacao.png';
+import chfbook from '../../assets/chf-book.png';
+import chfcarro from '../../assets/chf-carro.png';
+import chfcartao1 from '../../assets/chf-cartao-1.png';
+import chfcartao2 from '../../assets/chf-cartao-2.png';
+import chfpasta1 from '../../assets/chf-pasta-1.png';
+import chfpasta2 from '../../assets/chf-pasta-2.png';
+import chfsite1 from '../../assets/chf-site-1.png';
+import chfsite2 from '../../assets/chf-site-2.png';
 
 function Chf() {
   return (
@@ -14,24 +20,37 @@ function Chf() {
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-12 col-md-5">
-              <img src={logoChf} alt="Construtora CHF" />
+              <img src={logochf} alt="Construtora CHF" />
             </div>
 
             <div className="col-12 col-md-7">
-              <p>Transmitimos a seriedade de uma empresa de construção civil para seus materiais. Levando em consideração a qualidade de suas obras e seu principal público (estabelecimentos da área de saúde, comercial e industrial), apostamos em formas leves e clean, com conteúdo relevante, nas peças online e off-line. </p>
+              <p>Experiência, conhecimento e confiança. Esta é a imagem que vimos transmitindo ao longo dos anos para este cliente, com campanhas completas de posicionamento e reforço da marca, por meio de mídia online, atualização constante do site, gestão de mídias sociais e material impresso. Os resultados você confere abaixo</p>
 
-              <p>O site foi totalmente repaginado, adaptável para diferentes mídias e com navegação ainda mais agradável. </p>
-
-              <p>Materiais novos, marca reforçada, cliente satisfeito.</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="content">
-        <img src={site} alt="" />
-        <img src={catalogo} alt="" />
-        <img src={carro} alt="" />
+        <img src={chfsite1} alt="" />
+        <img src={chfsite2} alt="" />
+        <img src={chfpasta1} alt="" />
+        <img src={chfpasta2} alt="" />
+        <img src={chfcarro} alt="" />
+        <img src={chfapresentacao} alt="" />
+        <img src={chfcartao1} alt="" />
+        <img src={chfcartao2} alt="" />
+        <img src={chfbook} alt="" />
+      </div>
+
+      <div className="rodape">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12">
+              <a href="#" className="button-rodape">Quero fazer um orçamento <br/>para minha empresa!</a>
+            </div>
+          </div>
+        </div>
       </div>
     </Container>
   );

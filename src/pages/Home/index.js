@@ -13,6 +13,7 @@ import bentec from '../../assets/bentec.jpg'
 import adoremus from '../../assets/adoremus.jpg'
 import grupoazarte from '../../assets/grupo-azarte.jpg'
 import happytour from '../../assets/happy-tour.jpg'
+import mhglogo from '../../assets/mhg-logo.png'
 import mhg from '../../assets/mhg.jpg'
 import lenasouza from '../../assets/lena-souza.jpg'
 import servicos1 from '../../assets/servicos-1.png'
@@ -24,7 +25,7 @@ import vistasuamarca from '../../assets/vista-sua-marca.png'
 import pedraskraisch from '../../assets/pedras-kraisch.png'
 import chf from '../../assets/logo-chf.png'
 import marlene from '../../assets/marlene.png'
-import forcess from '../../assets/forcess.png'
+import madequimica from '../../assets/madequimica.png'
 import drvinicius from '../../assets/dr-vinicius.png'
 import gruporhino from '../../assets/grupo-rhino.png'
 import urbanii from '../../assets/urbanii.png'
@@ -110,10 +111,6 @@ function Home() {
             </div> 
 
             <div className="clients-holder">
-                <div className="box">
-                    <img className="img-background" src={bgpedras} alt="" />
-                    <img className="img-logo" src={pedraskraisch} alt="" />
-                </div>
 
                 <div className="box">
                     <Link to="/clientes/chf">
@@ -123,53 +120,83 @@ function Home() {
                 </div>
 
                 <div className="box">
-                    <img className="img-background" src={bgmarlene} alt="" />
-                    <img className="img-logo" src={marlene} alt="" />
+                    <Link to="/clientes/pedraskraisch">
+                        <img className="img-background" src={bgpedras} alt="" />
+                        <img className="img-logo" src={pedraskraisch} alt="" />
+                    </Link>
+                </div>
+
+                
+
+                <div className="box">
+                    <Link to="/clientes/marlene">
+                        <img className="img-background" src={bgmarlene} alt="" />
+                        <img className="img-logo" src={marlene} alt="" />
+                    </Link>
                 </div>
 
                 <div className="box">
+                    <Link to="/clientes/isoplast">
+                        <img className="img-background" src={bgisoplast} alt="" />
+                        <img className="img-logo" src={isoplast} alt="" />
+                    </Link>
+                </div>
+
+
+                <div className="box">
+                <Link to="/clientes/madequimica">
                     <img className="img-background" src={bgforcess} alt="" />
-                    <img className="img-logo" src={forcess} alt="" />
+                    <img className="img-logo" src={madequimica} alt="" />
+                </Link>
                 </div>
 
                 <div className="box">
-                    <img className="img-background" src={bgdrvinicius} alt="" />
-                    <img className="img-logo" src={drvinicius} alt="" />
+                    <Link to="/clientes/drvinicius">
+                        <img className="img-background" src={bgdrvinicius} alt="" />
+                        <img className="img-logo" src={drvinicius} alt="" />
+                    </Link>
                 </div>
 
                 <div className="box">
-                    <img className="img-background" src={bglevpao} alt="" />
-                    <img className="img-logo" src={levpao} alt="" />
+                    <Link to="/clientes/draana">
+                        <img className="img-background" src={bgdraana} alt="" />
+                        <img className="img-logo" src={draana} alt="" />
+                    </Link>
                 </div>
 
                 <div className="box">
-                    <img className="img-background" src={bgurbanii} alt="" />
-                    <img className="img-logo" src={urbanii} alt="" />
+                    <Link to="/clientes/mhg">
+                        <img className="img-background" src={bgurbanii} alt="" />
+                        <img className="img-logo" src={mhglogo} alt="" />
+                    </Link>
                 </div>
 
                 <div className="box">
-                    <img className="img-background" src={bglivanto} alt="" />
-                    <img className="img-logo" src={livanto} alt="" />
+                    <Link to="/clientes/aguiaconsultoria">
+                        <img className="img-background" src={bglivanto} alt="" />
+    
+                    </Link>
                 </div>
 
                 <div className="box">
-                    <img className="img-background" src={bgsantolau} alt="" />
-                    <img className="img-logo" src={santolau} alt="" />
+                    <Link to="/clientes/adoremus">
+                        <img className="img-background" src={bglivanto} alt="" />
+                        <img className="img-logo" src={adoremus} alt="" />
+                    </Link>
                 </div>
 
                 <div className="box">
-                    <img className="img-background" src={bgdraana} alt="" />
-                    <img className="img-logo" src={draana} alt="" />
+                    <Link to="/clientes/goedert">
+                        <img className="img-background" src={bglevpao} alt="" />
+                        
+                    </Link>
                 </div>
 
                 <div className="box">
-                    <img className="img-background" src={bgisoplast} alt="" />
-                    <img className="img-logo" src={isoplast} alt="" />
-                </div>
-
-                <div className="box">
-                    <img className="img-background" src={bgpietra} alt="" />
-                    <img className="img-logo" src={pietra} alt="" />
+                    <Link to="/clientes/levpao">
+                        <img className="img-background" src={bglevpao} alt="" />
+                        <img className="img-logo" src={levpao} alt="" />
+                    </Link>
                 </div>
                 
             </div>   
@@ -263,40 +290,40 @@ function Home() {
             <img className="camisetas" src={camisetas} alt="" />
 
             <div className="container flex">
-            <div className="row">
-                <div className="col-12 col-md-6">
+                <div className="row">
+                    <div className="col-12 col-md-6">
 
-                <div></div>
-                
-                <span className="text-icones icone-1"> Vestimos <br/>sua marca</span>
-                <p>Criamos ou reformulamos o seu logotipo e toda a identidade visual da sua marca, para que toda sua comunicação esteja de acordo com seu o produto/serviço e posicionamento.</p>
-                
+                    <div></div>
+                    
+                    <span className="text-icones icone-1"> Vestimos <br/>sua marca</span>
+                    <p>Criamos ou reformulamos o seu logotipo e toda a identidade visual da sua marca, para que toda sua comunicação esteja de acordo com seu o produto/serviço e posicionamento.</p>
+                    
+                    </div>
+                    
+                    
+                    
+                    <div className="col-12 col-md-6">
+
+                    <span className="text-icones icone-2">Realçamos suas <br/> peças publicitárias</span>
+                    <p>Em harmonia com sua identidade visual, criamos uma comunicação que aproxima, difunde e destaca sua marca e o seu produto/serviço.</p>
+                    
+                    </div>
+                    
+                    
+
+                    <div className="col-12 col-md-6">
+                        <span className="text-icones icone-3 ">Modernizamos<br/> seu marketing</span>
+                        <p>Elaboramos campanhas e ações que podem ser inseridas no marketing digital, sempre com a preocupação de manter um relacionamento próximo ao cliente e ao público alvo da sua marca.</p>
+                    </div>
+                    
+
+                    <div className="col-12 col-md-6">
+
+                        <span className="text-icones icone-4">Agilizamos sua<br/> comunicação</span>
+                        <p>Para uma comunicação ainda mais completa, oferecemos os serviços de assessoria de imprensa e elaboração de periódicos.</p>
+
+                    </div>
                 </div>
-                
-                
-                
-                <div className="col-12 col-md-6">
-
-                <span className="text-icones icone-2">Realçamos suas <br/> peças publicitárias</span>
-                <p>Em harmonia com sua identidade visual, criamos uma comunicação que aproxima, difunde e destaca sua marca e o seu produto/serviço.</p>
-                
-                </div>
-                
-                
-
-                <div className="col-12 col-md-6">
-                <span className="text-icones icone-3 ">Modernizamos<br/> seu marketing</span>
-                <p>Elaboramos campanhas e ações que podem ser inseridas no marketing digital, sempre com a preocupação de manter um relacionamento próximo ao cliente e ao público alvo da sua marca.</p>
-                </div>
-                
-
-                <div className="col-12 col-md-6">
-
-                <span className="text-icones icone-4">Agilizamos sua<br/> comunicação</span>
-                <p>Para uma comunicação ainda mais completa, oferecemos os serviços de assessoria de imprensa e elaboração de periódicos.</p>
-
-                </div>
-            </div>
             </div>    
         </div>
 
@@ -306,22 +333,22 @@ function Home() {
             
             <div className="container">
                 <div className="row">
-                <div className="col-12 col-md-6">
-                    <img className="maria" src={maria} alt="" />
-                </div>
+                    <div className="col-12 col-md-6">
+                        <img className="maria" src={maria} alt="" />
+                    </div>
 
-                <div className="col-12 col-md-6 text-center">
-                    <img className="influenciadores" src={vistasuamarca} alt="" />
+                    <div className="col-12 col-md-6 text-center">
+                        <img className="influenciadores" src={vistasuamarca} alt="" />
 
-                    <p>Influenciadores <strong>aumentam sua oportunidade</strong> de relacionamento e comunicam diretamente para o <strong>seu público.</strong></p>
+                        <p>Influenciadores <strong>aumentam sua oportunidade</strong> de relacionamento e comunicam diretamente para o <strong>seu público.</strong></p>
 
-                    <Link to="/influencer" className="button-influencer">Sou influencer</Link>
-                    <Link to="/empresa" className="button-sou-empresa">Sou empresa</Link>
-                    
-                    <a href="#" className="button-midia-kit"> 
-                        Preciso de um <span className="color-pink">midia-kit!</span>
-                    </a>
-                </div>
+                        <Link to="/influencer" className="button-influencer">Sou influencer</Link>
+                        <Link to="/empresa" className="button-sou-empresa">Sou empresa</Link>
+                        
+                        <a href="#" className="button-midia-kit"> 
+                            Preciso de um <span className="color-pink">midia-kit!</span>
+                        </a>
+                    </div>
                 </div>
             </div>    
         </div>
