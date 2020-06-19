@@ -2,21 +2,21 @@ import React from 'react';
 
 import { Container } from './styles';
 
-import marlene from '../../assets/marlene.png';
+import adoremus from '../../assets/adoremus.png';
 import adoremuscard from '../../assets/adoremus-card.png';
 import adoremusbanner from '../../assets/adoremus-banner.png';
 import adoremusflyers from '../../assets/adoremus-flyers.png';
 import adoremussite from '../../assets/adoremus-site.png';
 
 
-function Marlene() {
+function Adoremus() {
   return (
     <Container>
       <div className="banner-interna">
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-12 col-md-5">
-              <img src={marlene} alt="Construtora CHF" />
+              <img src={adoremus} alt="Construtora CHF" />
             </div>
 
             <div className="col-12 col-md-7">
@@ -49,4 +49,4 @@ function Marlene() {
   );
 }
 
-export default Marlene;
+export default Adoremus;

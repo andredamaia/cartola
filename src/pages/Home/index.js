@@ -10,7 +10,7 @@ import bgCartola from '../../assets/bg-cartola.jpg';
 import importante from '../../assets/importante.jpg'
 import solid from '../../assets/solid.jpg'
 import bentec from '../../assets/bentec.jpg'
-import adoremus from '../../assets/adoremus.jpg'
+import adoremus from '../../assets/adoremus.png'
 import grupoazarte from '../../assets/grupo-azarte.jpg'
 import happytour from '../../assets/happy-tour.jpg'
 import mhglogo from '../../assets/mhg-logo.png'
@@ -26,6 +26,7 @@ import pedraskraisch from '../../assets/pedras-kraisch.png'
 import chf from '../../assets/logo-chf.png'
 import marlene from '../../assets/marlene.png'
 import madequimica from '../../assets/madequimica.png'
+import madequimica2 from '../../assets/madequimica-2.png'
 import drvinicius from '../../assets/dr-vinicius.png'
 import gruporhino from '../../assets/grupo-rhino.png'
 import urbanii from '../../assets/urbanii.png'
@@ -146,7 +147,7 @@ function Home() {
                 <div className="box">
                 <Link to="/clientes/madequimica">
                     <img className="img-background" src={bgforcess} alt="" />
-                    <img className="img-logo" src={madequimica} alt="" />
+                    <img className="img-logo" src={madequimica2} alt="" />
                 </Link>
                 </div>
 
@@ -188,6 +189,7 @@ function Home() {
                 <div className="box">
                     <Link to="/clientes/goedert">
                         <img className="img-background" src={bglevpao} alt="" />
+                        <img className="img-logo" src={goedert} alt="" />
                         
                     </Link>
                 </div>
@@ -211,15 +213,12 @@ function Home() {
 
                     <div className="empresas">
                         <div><img src={solid} alt="" /></div>
-                        <div><img src={bentec} alt="" /></div>
-                        <div><img src={goedert} alt="" /></div>
+                        <div><img src={bentec} alt="" /></div>          
                         <div><img src={casageraldo} alt="" /></div>
                         <div><img src={gruporhino} alt="" /></div>
                         <div><img src={happytour} alt="" /></div>
-                        <div><img src={mhg} alt="" /></div>
                         <div><img src={lenasouza} alt="" /></div>
                         <div><img src={grupoazarte} alt="" /></div>
-                        <div><img src={adoremus} alt="" /></div>
                     </div>
                 </div>
             </div>    
